@@ -1,7 +1,8 @@
 import NavbarItem from "./NavbarItem";
+import logo from "../../assets/cejlogo2.png";
 
 const navbarItems = [
-  { href: "home", text: "Home" },
+  { href: "home", text: "HOME" },
   { href: "service", text: "SERVICE" },
   { href: "description", text: "DESCRIPTION" },
   { href: "a_propos", text: "À PROPOS" },
@@ -11,18 +12,14 @@ const navbarItems = [
 
 const Navbar = () => {
   return (
-    <nav className="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700">
-      <div className="max-w-screen-4xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <nav className="bg-white border-gray-200 dark:bg-black dark:border-gray-700">
+      <div className="max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto p-4">
         {/* logo */}
         <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-          {/* <img
-            src="https://flowbite.com/docs/images/logo.svg"
-            className="h-8"
-            alt="Flowbite Logo"
-          /> * */}
-          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+          <img src={logo} className="h-14" alt="Flowbite Logo" /> *
+          {/* <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
             conseilej
-          </span>
+          </span> */}
         </a>
         <button
           data-collapse-toggle="navbar-dropdown"
@@ -49,7 +46,7 @@ const Navbar = () => {
           </svg>
         </button>
         <div className="hidden w-full md:block md:w-auto" id="navbar-dropdown">
-          <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+          <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-black dark:border-gray-700">
             {navbarItems.map((item) => (
               <NavbarItem key={item.text} {...item} />
             ))}
