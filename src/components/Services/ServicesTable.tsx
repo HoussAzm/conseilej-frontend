@@ -85,7 +85,7 @@ const tableData = [
 
 const ServicesTable = () => {
   return (
-    <div className="relative w-full px-4 overflow-x-auto shadow-md sm:rounded-lg ">
+    <div className="relative w-full overflow-x-auto shadow-md sm:rounded-lg mt-12">
       <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
         <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
           <tr>

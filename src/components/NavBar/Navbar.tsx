@@ -4,7 +4,7 @@ import logo from "../../assets/cejlogo2.png";
 const navbarItems = [
   { href: "home", text: "HOME" },
   { href: "service", text: "SERVICE" },
-  { href: "description", text: "DESCRIPTION" },
+  { href: "about", text: "DESCRIPTION" },
   { href: "a_propos", text: "À PROPOS" },
   { href: "nos_projets", text: "PROJET" },
   { href: "contact", text: "CONTACT" },
