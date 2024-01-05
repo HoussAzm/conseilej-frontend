@@ -45,14 +45,14 @@ const Index = () => {
               <h4 className="text-lg md:text-2xl font-bold text-gold-500 mb-2 px-2">
                 {service.title}
               </h4>
-              <p className="text-sm md:text-md text-neutralGrey">
+              <p className="text-sm md:text-md font-semibold">
                 {service.decription}
               </p>
             </div>
           </div>
         ))}
       </div>
-      <div className="flex flex-col md:flex-row justify-between items-center gap-8 bg-gray-50 text-black px-8 py-12 rounded mt-24">
+      <div className="flex flex-col md:flex-row justify-between items-center gap-8 bg-gray-50 text-black px-4 py-6 md:px-8 md:py-12 rounded mt-8 md:my-20">
         <div className="md:w-1/2">
           <h2 className="text-2xl md:text-4xl text-neutralDGrey mb-2 md:w-2/3 text- font-semibold">
             UN EXPERT ET SON ÉQUIPE POUR BIEN GÉRER VOTRE PATRIMOINE

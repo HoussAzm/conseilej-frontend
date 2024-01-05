@@ -11,7 +11,7 @@ const ChewNous = () => {
           <h2 className="text-2xl md:text-left text-center md:text-4xl font-bold text-gold-500 pb-4">
             CONSEIL EJ
           </h2>
-          <p className="text-md  md:text-left text-center font-light text-neutralGrey mb-8">
+          <p className="text-md font-semibold  md:text-left text-center mb-8">
             Chez Conseil EJ (CEJ), notre engagement va au-delà de la simple
             location. C'est une expérience de vie exceptionnelle que nous vous
             offrons. Contactez-nous dès aujourd'hui pour découvrir nos offres
