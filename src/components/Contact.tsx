@@ -1,61 +1,30 @@
-import React, { useState } from "react";
-import axios from "axios";
+import { FormEvent, useRef } from "react";
+import emailjs from "@emailjs/browser";
+
 import Container from "./UI/Container";
 
-async function sendEmailHandler(email, message, nom) {
-  const options = {
-    method: "POST",
-    url: "https://rapidprod-sendgrid-v1.p.rapidapi.com/mail/send",
-    headers: {
-      "content-type": "application/json",
-      "X-RapidAPI-Key": import.meta.env.VITE_XRapidAPIKey,
-      "X-RapidAPI-Host": "rapidprod-sendgrid-v1.p.rapidapi.com",
-    },
-    data: {
-      personalizations: [
-        {
-          to: [
-            {
-              email: import.meta.env.VITE_EMAIL,
-            },
-          ],
-          subject: `${nom}, demond de servidor`,
-        },
-      ],
-      from: {
-        email,
-      },
-      content: [
-        {
-          type: "text/plain",
-          value: message,
-        },
-      ],
-    },
-  };
-
-  try {
-    const response = await axios.request(options);
-    console.log(response.data);
-  } catch (error) {
-    console.error(error);
-  }
-}
-
 function Contact() {
-  const [sending, setSending] = useState(false);
+  const form = useRef<HTMLFormElement>();
 
-  const [nom, setNom] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
-
-  const sendEmail = (e) => {
+  const sendEmail = (e: FormEvent) => {
     e.preventDefault();
-    setSending(true);
-    sendEmailHandler(email, message, nom);
-    setSending(false);
-  };
 
+    emailjs
+      .sendForm(
+        import.meta.env.VITE_SERVECEKEY,
+        import.meta.env.VITE_TEMPLATEKEY,
+        form.current as HTMLFormElement,
+        import.meta.env.VITE_PUBLICKEY
+      )
+      .then(
+        (result) => {
+          if (result.text === "OK") form.current?.reset();
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
   return (
     <Container>
       <div
@@ -76,41 +45,33 @@ function Contact() {
           <h1 className="text-2xl md:text-4xl text-gold-500 font-bold mb-4">
             Contactez-Nous
           </h1>
-          <form action="" className="space-y-4" onSubmit={sendEmail}>
+          {/* @ts-expect-error ddf */}
+          <form action="" className="space-y-4" onSubmit={sendEmail} ref={form}>
             <input
+              name="from_name"
               type="text"
               placeholder="Nom Complet"
               className="w-full bg-white border border-gray-300 text-black rounded py-3 px-3 outline-none"
               required
-              value={nom}
-              onChange={(e) => {
-                setNom(e.target.value);
-              }}
             />
             <input
+              name="from_email"
               type="email"
               placeholder="Email"
               className="w-full bg-white border border-gray-300 text-black rounded py-3 px-3 outline-none"
               required
-              value={email}
-              onChange={(e) => {
-                setEmail(e.target.value);
-              }}
             />
             <textarea
+              name="message"
               placeholder="Message"
               className="w-full bg-white border border-gray-300 rounded text-black py-2 px-6 outline-none"
               rows={5}
-              value={message}
-              onChange={(e) => {
-                setMessage(e.target.value);
-              }}
             ></textarea>
             <input
               type="submit"
               name="submit"
               className="w-full bg-gold-500 text-white rounded py-2 uppercase font-semibold cursor-pointer text-lg"
-              value={sending ? "En coure..." : "Envoyer"}
+              // value={sending ? "En coure..." : "Envoyer"}
             />
           </form>
         </div>
