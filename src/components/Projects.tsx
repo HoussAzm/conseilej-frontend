@@ -52,7 +52,7 @@ const Projects = () => {
           ))}
         </div>
       </div>
-      <div className="bg-neutralSilver w-11/12 lg:w-4/5 xl:w-3/4 mx-auto p-6 lg:p-10 rounded">
+      <div className="bg-neutralSilver lg:w-4/5 xl:w-3/4 mx-auto p-6 lg:p-10 rounded mb-12 md:mb-24">
         <h1 className="text-center text-2xl md:text-4xl text-gold-500 font-bold mb-6">
           Pourquoi pas vous ?
         </h1>
