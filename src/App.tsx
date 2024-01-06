@@ -5,6 +5,7 @@ import Description from "./components/Description/Index";
 import APropr from "./components/APropr/Index";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Projects />
         <Contact />
       </main>
+      <Footer />
     </>
   );
 };

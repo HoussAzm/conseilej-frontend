@@ -64,7 +64,7 @@ function Contact() {
             <textarea
               name="message"
               placeholder="Message"
-              className="w-full bg-white border border-gray-300 rounded text-black py-2 px-6 outline-none"
+              className="w-full bg-white border border-gray-300 rounded text-black py-2 px-3 outline-none"
               rows={5}
             ></textarea>
             <input
