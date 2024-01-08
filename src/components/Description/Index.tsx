@@ -1,26 +1,35 @@
 import Container from "../UI/Container";
 import ChewNous from "./ChewNous";
 
+import liquidite from "../../assets/liquidite.png";
+import rendement from "../../assets/rendement.png";
+import risque from "../../assets/risque.png";
+
+import membres from "../../assets/membres.png";
+import villaicon from "../../assets/villaicon.png";
+import villa from "../../assets/icons/villa.png";
+import building from "../../assets/building.png";
+
 const services = [
   {
     id: 1,
     title: "Sa liquidité",
     decription:
       "Votre argent est-il bloqué, combien de temps vous faudra-t-il pour pouvoir le récupérer ?",
-    image: "/src/assets//liquidite.png",
+    image: liquidite,
   },
   {
     id: 2,
     title: "Son rendement",
     decription: "Est-il garanti ? à combien peut-il s’élever ?",
-    image: "/src/assets/rendement.png",
+    image: rendement,
   },
   {
     id: 3,
     title: "Son niveau de risque",
     decription:
       "Pouvez-vous perdre une partie de votre capital ? Si oui, êtes-vous prêt à l’accepter et jusqu’à combien ?",
-    image: "/src/assets/risque.png",
+    image: risque,
   },
 ];
 
@@ -66,7 +75,7 @@ const Index = () => {
         <div className="md:w-1/2 mx-auto flex sm:flex-row flex-col sm:items-center justify-around gap-12 ">
           <div className="space-y-8">
             <div className="flex items-center gap-4">
-              <img className="w-12" src="/src/assets/membres.png" alt="" />
+              <img className="w-12" src={membres} alt="" />
               <div>
                 <h4 className="text-2xl text-neutralDGrey font-semibold">
                   1500+
@@ -75,7 +84,7 @@ const Index = () => {
               </div>
             </div>
             <div className="flex items-center gap-4">
-              <img className="w-12" src="/src/assets/villaicon.png" alt="" />
+              <img className="w-12" src={villaicon} alt="" />
               <div>
                 <h4 className="text-2xl text-neutralDGrey font-semibold">
                   800+
@@ -86,7 +95,7 @@ const Index = () => {
           </div>
           <div className="space-y-8">
             <div className="flex items-center gap-4">
-              <img className="w-12" src="/src/assets/icons/villa.png" alt="" />
+              <img className="w-12" src={villa} alt="" />
               <div>
                 <h4 className="text-2xl text-neutralDGrey font-semibold">
                   150+
@@ -95,7 +104,7 @@ const Index = () => {
               </div>
             </div>
             <div className="flex items-center gap-4">
-              <img className="w-12" src="/src/assets/building.png" alt="" />
+              <img className="w-12" src={building} alt="" />
               <div>
                 <h4 className="text-2xl text-neutralDGrey font-semibold">
                   1000+

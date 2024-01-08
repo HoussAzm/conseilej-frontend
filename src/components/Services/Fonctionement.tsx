@@ -1,27 +1,31 @@
 import Container from "../UI/Container";
 import SectionTitle from "../UI/SectionTitle";
 
+import membership from "../../assets/icons/membership.png";
+import association from "../../assets/icons/association.png";
+import groupClub from "../../assets/icons/group-club.png";
+
 const services = [
   {
     id: 1,
     title: "Pourquoi confier sa gestion patrimoniale",
     decription:
       " Nous pourrons construire une relation exclusive, sur la durée, qui vous permettra d’accéder à une grande offre de solutions et à des préconisations d’investissement personnalisées en fonction de vos objectifs .",
-    image: "/src/assets/icons/membership.png",
+    image: membership,
   },
   {
     id: 2,
     title: "Déterminez vos objectifs",
     decription:
       "Commencer à épargner, générer des futurs revenus complémentaires, faire mieux fructifier votre patrimoine actuel : il convient d’abord de déterminer vos objectifs à moyen et long terme.",
-    image: "/src/assets/icons/association.png",
+    image: association,
   },
   {
     id: 3,
     title: "Votre horizon de placement",
     decription:
       "Durant combien de mois ou d’années, êtes-vous prêt à immobiliser cet argent ?",
-    image: "/src/assets/icons/group-club.png",
+    image: groupClub,
   },
 ];
 

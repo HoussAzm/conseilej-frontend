@@ -3,6 +3,13 @@ import Container from "../UI/Container";
 import cej from "../../assets/cej.png";
 import jamel from "../../assets/jamel.jpg";
 
+import house from "../../assets/icons/house.png";
+import finance from "../../assets/icons/finance.png";
+import assurance from "../../assets/icons/assurance.png";
+import patrimonial from "../../assets/icons/patrimonial.png";
+import papier from "../../assets/icons/papier.png";
+import locatif from "../../assets/icons/locatif.png";
+
 const Inder = () => {
   return (
     <Container id="a_propos">
@@ -55,36 +62,12 @@ const Inder = () => {
               </p>
               <div>
                 <div className="flex gap-8 items-center flex-wrap">
-                  <img
-                    src="/src/assets/icons/house.png"
-                    alt=""
-                    className="w-10"
-                  />
-                  <img
-                    src="/src/assets/icons/finance.png"
-                    alt=""
-                    className="w-10"
-                  />
-                  <img
-                    src="/src/assets/icons/assurance.png"
-                    alt=""
-                    className="w-10"
-                  />
-                  <img
-                    src="/src/assets/icons/patrimonial.png"
-                    alt=""
-                    className="w-10"
-                  />
-                  <img
-                    src="/src/assets/icons/papier.png"
-                    alt=""
-                    className="w-10"
-                  />
-                  <img
-                    src="/src/assets/icons/locatif.png"
-                    alt=""
-                    className="w-10"
-                  />
+                  <img src={house} alt="" className="w-10" />
+                  <img src={finance} alt="" className="w-10" />
+                  <img src={assurance} alt="" className="w-10" />
+                  <img src={patrimonial} alt="" className="w-10" />
+                  <img src={papier} alt="" className="w-10" />
+                  <img src={locatif} alt="" className="w-10" />
                 </div>
               </div>
             </div>
