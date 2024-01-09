@@ -1,14 +1,12 @@
 import Container from "../UI/Container";
-
 import cej from "../../assets/cej.png";
-import jamel from "../../assets/jamel.jpg";
-
 import house from "../../assets/icons/house.png";
 import finance from "../../assets/icons/finance.png";
 import assurance from "../../assets/icons/assurance.png";
 import patrimonial from "../../assets/icons/patrimonial.png";
 import papier from "../../assets/icons/papier.png";
 import locatif from "../../assets/icons/locatif.png";
+import mrjamal from "../../assets/mrjamal.jpg"
 
 const Inder = () => {
   return (
@@ -20,7 +18,7 @@ const Inder = () => {
             <h2 className="md:text-left text-center text-2xl md:text-4xl font-bold  mb-4 md:hidden block" id="change">
               JAMEL ESSOUALEH
             </h2>
-            <img src={jamel} alt="" className="w-full" />
+            <img src={mrjamal} alt="" className="w-full" />
           </div>
           <div className="md:w-3/5 mx-auto">
             <h2 className="md:text-left text-center text-2xl md:text-4xl font-bold  mb-4 hidden md:block" id="change">
