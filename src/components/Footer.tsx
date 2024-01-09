@@ -1,7 +1,5 @@
 import { Footer } from "flowbite-react";
 import { BsFacebook, BsInstagram } from "react-icons/bs";
-
-import cejlogo4 from "../assets/cejlogo4.png";
 import cejlogo1 from "../assets/cejlogo1.png"
 import Container from "./UI/Container";
 
