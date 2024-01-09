@@ -1,6 +1,13 @@
+import React from 'react';
 
-const CarouselItem = ({ title, subTitle, image }) => {
-  const itemStyle = {
+interface CarouselItemProps {
+  title: string;
+  subTitle: string;
+  image: string;
+}
+
+const CarouselItem: React.FC<CarouselItemProps> = ({ title, subTitle, image }) => {
+  const itemStyle: React.CSSProperties = {
     backgroundImage: `url(${image})`,
     backgroundSize: "cover",
     backgroundPosition: "center",
@@ -16,11 +23,11 @@ const CarouselItem = ({ title, subTitle, image }) => {
   };
 
   return (
-    <div className="carousel-item" style={itemStyle}>
+      <div className="carousel-item" style={itemStyle}>
       <h2 className="text-3xl font-bold">{title}</h2>
       <p className="text-lg mt-4">{subTitle}</p>
     </div>
-  );
+    );
 };
-  
+
 export default CarouselItem;
