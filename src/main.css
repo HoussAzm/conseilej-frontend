@@ -1,3 +1,39 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+#change{
+    color: #edc768;
+}
+#service{
+    color: #edc768;
+}
+#changebtn{
+    background-color:#edc768;
+    color: black;
+}
+
+
+/* Tailwind CSS classes */
+@keyframes animate-custom {
+    0%, 100% {
+      backgroundImage: url("/src/assets/cascade1.webp");
+    }
+    25% {
+      backgroundImage: url("/src/assets/cascade1.webp");
+    }
+    50% {
+      backgroundImage: url("/src/assets/cascade1.webp");
+    }
+    75% {
+      backgroundImage: url("/src/assets/cascade1.webp");
+    }
+  }
+  
+  /* Vos styles pour la classe title22 si nécessaire */
+  .title22 {
+    /* Vos styles pour le titre */
+  }
+  

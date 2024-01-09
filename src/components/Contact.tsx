@@ -42,7 +42,7 @@ function Contact() {
           ></iframe>
         </div>
         <div className="contact-form w-full md:w-1/2 flex-1 text-center">
-          <h1 className="text-2xl md:text-4xl text-gold-500 font-bold mb-4">
+          <h1 className="text-2xl md:text-4xl  font-bold mb-4" id="change">
             Contactez-Nous
           </h1>
           {/* @ts-expect-error ddf */}
@@ -70,7 +70,7 @@ function Contact() {
             <input
               type="submit"
               name="submit"
-              className="w-full bg-gold-500 text-white rounded py-2 uppercase font-semibold cursor-pointer text-lg"
+              className="w-full  text-white rounded py-2 uppercase font-semibold cursor-pointer text-lg" id="changebtn"
               // value={sending ? "En coure..." : "Envoyer"}
             />
           </form>

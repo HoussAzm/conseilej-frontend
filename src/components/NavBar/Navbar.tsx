@@ -1,6 +1,6 @@
 import NavbarItem from "./NavbarItem";
-import logo from "../../assets/cejlogo2.png";
 
+import cejlogo1 from "../../assets/cejlogo1.png"
 const navbarItems = [
   { href: "home", text: "HOME" },
   { href: "service", text: "SERVICE" },
@@ -16,7 +16,7 @@ const Navbar = () => {
       <div className="max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto p-4">
         {/* logo */}
         <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src={logo} className="h-14" alt="Flowbite Logo" />
+          <img src={cejlogo1} className="h-16" alt="Flowbite Logo" />
           {/* <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
             conseilej
           </span> */}

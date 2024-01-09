@@ -1,12 +1,9 @@
 import tower1 from "../assets/tower1.jpeg";
 import tower2 from "../assets/tower2.jpeg";
 import tower3 from "../assets/tower3.jpg";
-import tower4 from "../assets/tower4.jpg";
-import tower5 from "../assets/tower5.jpg";
-import tower6 from "../assets/tower6.jpg";
-import tower7 from "../assets/tower7.jpg";
-import tower8 from "../assets/tower8.jpg";
-import tower9 from "../assets/tower9.jpg";
+import cascade1 from "../assets/cascade1.webp";
+import cascade2 from "../assets/cascade2.webp";
+import cascade3 from "../assets/cascade3.webp";
 import Container from "./UI/Container";
 
 const Projects = () => {
@@ -14,27 +11,26 @@ const Projects = () => {
     tower1,
     tower2,
     tower3,
-    tower4,
-    tower5,
-    tower9,
-    tower7,
-    tower8,
-    tower6,
+    cascade1,
+    cascade2,
+    cascade3
   ];
 
   return (
     <Container>
       <div className=" mx-auto my-12 md:my-24" id="nos_projets">
         <div className="text-center md:w-1/2 mx-auto">
-          <h2 className="text-2xl md:text-4xl text-gold-500 font-bold mb-4">
+          <h2 className="text-2xl md:text-4xl  font-bold mb-4" id="change">
             DÉCOUVREZ NOS PROJETS
-          </h2>
+          </h2> 
           <p className="text-md mb-8  mx-auto font-semibold">
-            Optimisez votre patrimoine, bâtissez votre avenir : Le Conseil
-            Patrimonial CEJ, votre partenaire d'exception dans la gestion
-            patrimoniale et immobilière. Des conseils avisés, des opportunités
-            immobilières uniques – Ensemble, façonnons votre succès financier et
-            votre bien-être immobilier.
+          Optimisez votre patrimoine, bâtissez votre avenir avec le Conseil Patrimonial CEJ, votre partenaire d'exception en gestion patrimoniale et immobilière. Notre expertise vous offre des conseils avisés et des opportunités immobilières uniques, créant ainsi votre succès financier et votre bien-être immobilier. Découvrez nos villas exclusives :
+
+Maria Towers à Marrakech, Maroc : De somptueuses villas offrant une expérience de vie luxueuse au cœur de Marrakech. Maria Towers combine habilement modernité, confort et élégance orientale pour un cadre de vie incomparable.
+
+Les Cascades d'Argens dans le Var, France : Nichées dans l'environnement naturel préservé du Var, ces villas uniques offrent un style de vie méditerranéen authentique. Les Cascades d'Argens proposent des résidences de charme aux prestations haut de gamme, en parfaite harmonie avec leur environnement naturel.
+
+Ces villas d'exception représentent des opportunités uniques pour investir dans un patrimoine d'excellence. Le Conseil Patrimonial CEJ est là pour concrétiser vos projets immobiliers avec expertise et dévouement."
           </p>
         </div>
 
@@ -53,7 +49,7 @@ const Projects = () => {
         </div>
       </div>
       <div className="bg-neutralSilver lg:w-4/5 xl:w-3/4 mx-auto p-6 lg:p-10 rounded mb-12 md:mb-24">
-        <h1 className="text-center text-2xl md:text-4xl text-gold-500 font-bold mb-6">
+        <h1 className="text-center text-2xl md:text-4xl  font-bold mb-6" id="change">
           Pourquoi pas vous ?
         </h1>
         <p className="text-center mb-8 text-black text-md font-bold">

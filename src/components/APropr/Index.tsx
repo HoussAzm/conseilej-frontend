@@ -17,13 +17,13 @@ const Inder = () => {
       <div className="md:px-4 lg:px-14 max-w-screen-2xl mx-auto my-14 md:my-24">
         <div className="md:w-11/12 mx-auto flex flex-col md:flex-row justify-between items-center gap-12">
           <div className="flex-1">
-            <h2 className="md:text-left text-center text-2xl md:text-4xl font-bold text-gold-500 mb-4 md:hidden block">
+            <h2 className="md:text-left text-center text-2xl md:text-4xl font-bold  mb-4 md:hidden block" id="change">
               JAMEL ESSOUALEH
             </h2>
             <img src={jamel} alt="" className="w-full" />
           </div>
           <div className="md:w-3/5 mx-auto">
-            <h2 className="md:text-left text-center text-2xl md:text-4xl font-bold text-gold-500 mb-4 hidden md:block">
+            <h2 className="md:text-left text-center text-2xl md:text-4xl font-bold  mb-4 hidden md:block" id="change">
               JAMEL ESSOUALEH
             </h2>
             <p className="text-md font-semibold mb-8 text-justify">

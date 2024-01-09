@@ -8,7 +8,7 @@ const ChewNous = () => {
           <img src={villanight} alt="" className="w-100" />
         </div>
         <div className="md:w-3/5 mx-auto">
-          <h2 className="text-2xl md:text-left text-center md:text-4xl font-bold text-gold-500 pb-4">
+          <h2 className="text-2xl md:text-left text-center md:text-4xl font-bold  pb-4" id="change">
             CONSEIL EJ
           </h2>
           <p className="text-md font-semibold  md:text-left text-center mb-8">

@@ -2,6 +2,7 @@ import { Footer } from "flowbite-react";
 import { BsFacebook, BsInstagram } from "react-icons/bs";
 
 import cejlogo4 from "../assets/cejlogo4.png";
+import cejlogo1 from "../assets/cejlogo1.png"
 import Container from "./UI/Container";
 
 const MyFooter = () => {
@@ -16,7 +17,7 @@ const MyFooter = () => {
                 className="text-2xl font-semibold flex items-center space-x-3"
               >
                 <img
-                  src={cejlogo4}
+                  src={cejlogo1}
                   alt=""
                   className="w-10 inline-block items-center"
                 />

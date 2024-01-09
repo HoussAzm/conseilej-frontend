@@ -37,7 +37,7 @@ const Index = () => {
   return (
     <Container>
       <ChewNous />
-      <h2 className="text-2xl md:text-4xl font-bold w-full text-center max-w-[50ch] mx-auto text-gold-500 mt-12">
+      <h2 className="text-2xl md:text-4xl font-bold w-full text-center max-w-[50ch] mx-auto  mt-12" id="change">
         CHAQUE INVESTISSEMENT QUE VOUS RÉALISEREZ DEVRA ÊTRE ANALYSÉ AU REGARD
         DE PLUSIEURS CRITÈRES :
       </h2>
@@ -51,7 +51,7 @@ const Index = () => {
               <div className="bg-[#E8F5E9] w-14 h-14 flex justify-center items-center mx-auto mb-4 rounded-tl-3xl rounded-br-3xl">
                 <img src={service.image} alt="w-full" className="" />
               </div>
-              <h4 className="text-lg md:text-2xl font-bold text-gold-500 mb-2 px-2">
+              <h4 className="text-lg md:text-2xl font-bold  mb-2 px-2" id="change">
                 {service.title}
               </h4>
               <p className="text-sm md:text-md font-semibold">
