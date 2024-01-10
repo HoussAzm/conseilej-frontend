@@ -9,7 +9,7 @@ interface CarouselItemProps {
 const CarouselItem: React.FC<CarouselItemProps> = ({ title, subTitle, image }) => {
   const itemStyle: React.CSSProperties = {
     backgroundImage: `url(${image})`,
-    backgroundSize: "cover",
+    backgroundSize: "cover", // Vous pouvez modifier cette propriété pour ajuster la taille de l'image de fond
     backgroundPosition: "center",
     textAlign: "center",
     color: "#fff",
@@ -17,17 +17,17 @@ const CarouselItem: React.FC<CarouselItemProps> = ({ title, subTitle, image }) =
     flexDirection: "column",
     justifyContent: "center",
     alignItems: "center",
-    height: "100%",
+    minHeight: "650px", // Ajustez la hauteur minimale pour chaque élément du carrousel
     padding: "20px",
-    borderRadius: "8px", // Ajoutez ceci si vous souhaitez des coins arrondis sur chaque diapositive
+    borderRadius: "5px", 
   };
 
   return (
-      <div className="carousel-item" style={itemStyle}>
-      <h2 className="text-3xl font-bold">{title}</h2>
+    <div className="carousel-item" style={itemStyle}>
+      <h2 className="text-3xl font-bold text-white">{title}</h2>
       <p className="text-lg mt-4">{subTitle}</p>
     </div>
-    );
+  );
 };
 
 export default CarouselItem;

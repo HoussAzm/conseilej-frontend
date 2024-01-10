@@ -1,6 +1,7 @@
 import { useState } from "react";
 import NavbarItem from "./NavbarItem";
 import cejlogo1 from "../../assets/cejlogo1.png";
+import menu from "../../assets/menu.png";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false); // Utilisation d'un état pour contrôler l'ouverture du menu sur mobile
@@ -18,7 +19,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white border-gray-200 dark:bg-black dark:border-gray-700">
+    <nav className="bg-white border-gray-200 dark:bg-black dark:border-gray-500">
       <div className="max-w-screen-2xl flex flex-col items-center justify-center mx-auto p-4">
         {/* Logo centré */}
         <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse mb-4">
@@ -29,9 +30,13 @@ const Navbar = () => {
         <div className="md:hidden">
           <button
             onClick={toggleMenu}
-            className="text-gray-600 dark:text-gray-400 focus:outline-none focus:text-gray-800"
+            className="text-gray-600 dark:text-gray-400 focus:outline-none focus:text-gray-400 transition-transform duration-300"
           >
-            Menu
+            <img
+              src={menu}
+              className={`h-10 menu-icon ${isMenuOpen ? 'rotate-90' : ''}`}
+              alt="Flowbite Logo"
+            />
           </button>
         </div>
 

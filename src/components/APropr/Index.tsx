@@ -5,7 +5,6 @@ import finance from "../../assets/icons/finance.png";
 import assurance from "../../assets/icons/assurance.png";
 import patrimonial from "../../assets/icons/patrimonial.png";
 import papier from "../../assets/icons/papier.png";
-import locatif from "../../assets/icons/locatif.png";
 import mrjamal from "../../assets/mrjamal.jpg"
 
 const Inder = () => {
@@ -65,7 +64,7 @@ const Inder = () => {
                   <img src={assurance} alt="" className="w-10" />
                   <img src={patrimonial} alt="" className="w-10" />
                   <img src={papier} alt="" className="w-10" />
-                  <img src={locatif} alt="" className="w-10" />
+                 
                 </div>
               </div>
             </div>
