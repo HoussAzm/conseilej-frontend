@@ -1,24 +1,26 @@
 import CarouselItem from "./CarouselItem";
 import { Carousel } from "flowbite-react";
 
-import immo1 from "../../assets/immo1.jpg";
-import immo2 from "../../assets/immo2.jpg";
-import immo3 from "../../assets/immo3.jpg"
+import tourm6 from "../../assets/tourm6.png"
+import sahara from "../../assets/sahara.jpg"
+import maroc2 from "../../assets/maroc2.jpg"
+
+
 const carouselItems = [
   {
     title: "GÉREZ L’INTÉGRALITÉ DE VOTRE PROJET DANS UN SEUL SYSTÈME.",
     subTitle: "RÉSERVEZ ET DECOUVREZ DES FORFAITS AU PRIX LE PLUS BAS",
-    image: immo1,
+    image: tourm6,
   },
   {
     title: "DÉCOUVREZ L'EXCELLENCE FINANCIÈRE AVEC CEJ CONSEIL PATRIMONIAL.",
     subTitle: "RÉSERVEZ ET DECOUVREZ DES FORFAITS AU PRIX LE PLUS BAS",
-    image: immo2,
+    image: sahara,
   },
   {
     title: "UN EXPERT ET SON ÉQUIPE POUR BIEN GÉRER VOTRE PATRIMOINE",
     subTitle: "RÉSERVEZ ET DECOUVREZ DES FORFAITS AU PRIX LE PLUS BAS",
-    image: immo3,
+    image: maroc2,
   },
 ];
 

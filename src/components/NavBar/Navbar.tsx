@@ -6,11 +6,11 @@ import menu from "../../assets/menu.png";
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false); // Utilisation d'un état pour contrôler l'ouverture du menu sur mobile
   const navbarItems = [
-    { href: "home", text: "HOME" },
-    { href: "service", text: "SERVICE" },
+    { href: "home", text: "ACCEUIL" },
     { href: "about", text: "DESCRIPTION" },
     { href: "a_propos", text: "À PROPOS" },
     { href: "nos_projets", text: "PROJET" },
+    { href: "service", text: "SERVICE" },
     { href: "contact", text: "CONTACT" },
   ];
 

@@ -13,10 +13,10 @@ const App = () => {
       <Navbar />
       <main className="pb-8">
         <Home />
-        <Services />
         <Description />
         <APropr />
         <Projects />
+        <Services />
         <Contact />
       </main>
       <Footer />
