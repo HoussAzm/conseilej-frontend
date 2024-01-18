@@ -1,10 +1,10 @@
-import book from "../../assets/book.png";
-import invest2 from "../../assets/invest2.png";
-import patrimo from "../../assets/patrimo.png";
-import trans2 from "../../assets/trans2.png";
-import amena from "../../assets/amena.png";
-import local from "../../assets/local.png";
-import paper from "../../assets/paper.png"
+import copy from "../../assets/copy.png";
+import augmentation from "../../assets/augmentation.png";
+import banking from "../../assets/banking.png";
+import property from "../../assets/property.png";
+import management from "../../assets/management.png";
+import location from "../../assets/location.png";
+import papieradmini from "../../assets/papieradmini.png"
 
 const ServicesType = () => {
   return (
@@ -14,31 +14,31 @@ const ServicesType = () => {
       </p>
       <div className="mb-12 mt-8 flex flex-wrap justify-center lg:justify-between items-start gap-8">
         <div className="flex flex-col items-center text-center transition duration-500 transform hover:scale-110">
-          <img className="h-20 aspect-square" src={book} alt="conseil" />
+          <img className="h-20 aspect-square" src={copy} alt="conseil" />
           <p className="mt-2 text-white font-bold">Maitrise d'ouvrage</p>
         </div>
         <div className="flex flex-col items-center text-center  lg:mt-0 transition duration-500 transform hover:scale-110">
-          <img className="h-20 aspect-square" src={invest2} alt="" />
+          <img className="h-20 aspect-square" src={augmentation} alt="" />
           <p className="mt-2 text-white font-bold">Investissement</p>
         </div>
         <div className="flex flex-col items-center text-center mt-6 lg:mt-0 transition duration-500 transform hover:scale-110">
-          <img className="h-20 aspect-square" src={patrimo} alt="" />
+          <img className="h-20 aspect-square" src={banking} alt="" />
           <p className="mt-2 text-white font-bold">Gestion Patrimonial</p>
         </div>
         <div className="flex flex-col items-center text-center mt-6 lg:mt-0 transition duration-500 transform hover:scale-110">
-          <img className="h-20 aspect-square" src={trans2} alt="" />
+          <img className="h-20 aspect-square" src={property} alt="" />
           <p className="mt-2 text-white font-bold">Transaction immobilière</p>
         </div>
         <div className="flex flex-col items-center text-center mt-6 lg:mt-0 transition duration-500 transform hover:scale-110">
-          <img className="h-20 aspect-square " src={amena} alt="" />
+          <img className="h-20 aspect-square " src={management} alt="" />
           <p className="mt-2 text-white font-bold">Aménagement</p>
         </div>
         <div className="flex flex-col items-center text-center mt-6 lg:mt-0 transition duration-500 transform hover:scale-110">
-          <img className="h-20 aspect-square " src={local} alt="" />
+          <img className="h-20 aspect-square " src={location} alt="" />
           <p className="mt-2 text-white font-bold">Gestion Locatif</p>
         </div>
         <div className="flex flex-col items-center text-center mt-6 lg:mt-0 transition duration-500 transform hover:scale-110">
-          <img className="h-20 aspect-square " src={paper} alt="" />
+          <img className="h-20 aspect-square " src={papieradmini} alt="" />
           <p className="mt-2 text-white font-bold">Papier Adminisratifs</p>
         </div>
       </div>
