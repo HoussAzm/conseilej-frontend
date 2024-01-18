@@ -1,11 +1,11 @@
 import { Footer } from "flowbite-react";
-import { BsFacebook, BsInstagram } from "react-icons/bs";
+import { BsFacebook, BsInstagram, BsTiktok } from "react-icons/bs";
 import cejlogo1 from "../assets/cejlogo1.png"
 import Container from "./UI/Container";
 
 const MyFooter = () => {
   return (
-    <footer className="bg-slate-900 text-white mt-12">
+    <footer className="bg-gray-800 text-white mt-12">
       <Container>
         <div className="px-4 lg:px-14 py-12">
           <div className="grid grid-cols-1 gap-8 items-start sm:mt-4 md:grid-cols-2 lg:grid-cols-4 md:gap-12 text-white">
@@ -19,7 +19,7 @@ const MyFooter = () => {
                   alt=""
                   className="w-10 inline-block items-center"
                 />
-                <span className="">CONSEIL EJ</span>
+                <span className="conseil">CONSEIL EJ</span>
               </a>
               <div className="my-8">
                 <p className="mb-1">
@@ -32,6 +32,12 @@ const MyFooter = () => {
                   id="icone1"
                   href="https://www.facebook.com/profile.php?id=61555121257068"
                   icon={BsFacebook}
+                  className="text-white"
+                />
+                <Footer.Icon
+                  id="icone1"
+                  href="https://www.tiktok.com/@conseil.ej"
+                  icon={BsTiktok}
                   className="text-white"
                 />
                 <Footer.Icon
