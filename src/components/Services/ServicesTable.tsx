@@ -87,7 +87,7 @@ const ServicesTable = () => {
   return (
     <div className="relative w-full overflow-x-auto shadow-md sm:rounded-lg mt-12">
       <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
-        <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+        <thead className="text-xs uppercase bg-gray-50 dark:text-gray-400" id="tableau">
           <tr>
             <th scope="col" className="px-6 py-3">
               Type de prestation
@@ -104,7 +104,7 @@ const ServicesTable = () => {
           {tableData.map((item, index) => (
             <tr
               key={index}
-              className="bg-white border-b dark:bg-gray-800 dark:border-gray-700"
+              className="bg-white border-b " id="tab"
             >
               <td className="px-6 py-4 min-w-44">{item.col1}</td>
               <td className="px-6 py-4 min-w-36">{item.col2}</td>

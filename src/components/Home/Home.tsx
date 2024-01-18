@@ -2,7 +2,7 @@ import CarouselItem from "./CarouselItem";
 import { Carousel } from "flowbite-react";
 
 import architecture from "../../assets/architecture.jpg"
-import art from "../../assets/art.jpg"
+import batiment from "../../assets/batiment.jpg"
 import M6 from "../../assets/M6.jpg"
 
 const carouselItems = [
@@ -19,7 +19,7 @@ const carouselItems = [
   {
     title: "UN EXPERT ET SON ÉQUIPE POUR BIEN GÉRER VOTRE PATRIMOINE",
     subTitle: "RÉSERVEZ ET DECOUVREZ DES FORFAITS AU PRIX LE PLUS BAS",
-    image: art,
+    image: batiment,
   },
 ];
 

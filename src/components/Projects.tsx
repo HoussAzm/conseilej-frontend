@@ -1,19 +1,19 @@
 import tower1 from "../assets/tower1.jpeg";
-import tower2 from "../assets/tower2.jpeg";
-import tower3 from "../assets/tower3.jpg";
+import v4 from "../assets/v4.jpg";
+import v2 from "../assets/v2.jpg";
 import cascade1 from "../assets/cascade1.webp";
 import cascade2 from "../assets/cascade2.webp";
-import cascade3 from "../assets/cascade3.webp";
+import v3 from "../assets/v3.jpg";
 import Container from "./UI/Container";
 
 const Projects = () => {
   const images = [
     tower1,
-    tower2,
-    tower3,
+    v4,
+    v2,
     cascade1,
     cascade2,
-    cascade3
+    v3
   ];
 
   return (
@@ -58,7 +58,7 @@ Ces villas d'exception représentent des opportunités uniques pour investir dan
         </p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
           <div className="text-center bg-gray-100 p-6 rounded-lg">
-            <p className="text-2xl md:text-4xl font-bold text-blue-500 mb-3">
+            <p className="text-2xl md:text-4xl font-bold  mb-3" id="text">
               71%
             </p>
             <p className="md:text-lg font-bold text-sm text-black ">
@@ -66,7 +66,7 @@ Ces villas d'exception représentent des opportunités uniques pour investir dan
             </p>
           </div>
           <div className="text-center bg-gray-100 p-6 rounded-lg">
-            <p className="text-2xl md:text-4xl font-bold text-blue-500 mb-3">
+            <p className="text-2xl md:text-4xl font-bold  mb-3" id="text">
               90%
             </p>
             <p className="md:text-lg font-bold text-sm text-black ">
@@ -75,7 +75,7 @@ Ces villas d'exception représentent des opportunités uniques pour investir dan
             </p>
           </div>
           <div className="text-center bg-gray-100 p-6 rounded-lg">
-            <p className="text-2xl md:text-4xl font-bold text-blue-500 mb-3">
+            <p className="text-2xl md:text-4xl font-bold  mb-3" id="text">
               90%
             </p>
             <p className="md:text-lg font-bold text-sm text-black ">

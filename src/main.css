@@ -14,5 +14,24 @@
     background-color:#edc768;
     color: black;
 }
-
-
+#tableau{
+    background-color: #edc768;
+    color: black;
+}
+#tab{
+    color: black;
+    font-weight: bold;
+}
+#text{
+    color: #edc765 ; 
+}
+#icone1:hover{
+    color: #edc768;
+}
+#icone2:hover{
+    color: #edc768;
+}
+#link{
+   
+    text-decoration: none;
+}

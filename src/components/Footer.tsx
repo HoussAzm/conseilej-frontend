@@ -23,7 +23,7 @@ const MyFooter = () => {
               </a>
               <div className="my-8">
                 <p className="mb-1">
-                  &copy; 2024 CONSEIL EJ, All rights reserved
+                  &copy; 2024 CONSEIL EJ, Tous droits réservés
                 </p>
               </div>
 
@@ -36,7 +36,7 @@ const MyFooter = () => {
                 />
                 <Footer.Icon
                   id="icone2"
-                  href="#"
+                  href="https://www.instagram.com/conseilej_officiel"
                   icon={BsInstagram}
                   className="text-white"
                 />
