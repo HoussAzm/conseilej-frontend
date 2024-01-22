@@ -23,13 +23,10 @@ const Projects = () => {
           <h2 className="text-2xl md:text-4xl  font-bold mb-4" id="change">
             DÉCOUVREZ NOS PROJETS
           </h2> 
-          <p className="text-md mb-8  mx-auto font-semibold">
+          <p className="text-md font-semibold mb-8 text-justify">
           Optimisez votre patrimoine, bâtissez votre avenir avec le Conseil Patrimonial CEJ, votre partenaire d'exception en gestion patrimoniale et immobilière. Notre expertise vous offre des conseils avisés et des opportunités immobilières uniques, créant ainsi votre succès financier et votre bien-être immobilier. Découvrez nos villas exclusives :
-
 Maria Towers à Marrakech, Maroc : De somptueuses villas offrant une expérience de vie luxueuse au cœur de Marrakech. Maria Towers combine habilement modernité, confort et élégance orientale pour un cadre de vie incomparable.
-
 Les Cascades d'Argens dans le Var, France : Nichées dans l'environnement naturel préservé du Var, ces villas uniques offrent un style de vie méditerranéen authentique. Les Cascades d'Argens proposent des résidences de charme aux prestations haut de gamme, en parfaite harmonie avec leur environnement naturel.
-
 Ces villas d'exception représentent des opportunités uniques pour investir dans un patrimoine d'excellence. Le Conseil Patrimonial CEJ est là pour concrétiser vos projets immobiliers avec expertise et dévouement."
           </p>
         </div>

@@ -41,7 +41,7 @@ const Index = () => {
         CHAQUE INVESTISSEMENT QUE VOUS RÉALISEREZ DEVRA ÊTRE ANALYSÉ AU REGARD
         DE PLUSIEURS CRITÈRES :
       </h2>
-      <div className="mt-6 md:mt-12 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:w-11/12 mx-auto gap-6 md:gap-12">
+      <div className=" mt-6 md:mt-12 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:w-11/12 mx-auto gap-6 md:gap-12">
         {services.map((service) => (
           <div
             key={service.id}
