@@ -10,14 +10,13 @@ import mrjamal from "../../assets/mrjamal.jpg"
 const Inder = () => {
   return (
     <Container id="a_propos">
-      {/* about text */}
       <div className="md:px-4 lg:px-14 max-w-screen-2xl mx-auto my-14 md:my-24">
         <div className="md:w-11/12 mx-auto flex flex-col md:flex-row justify-between items-center gap-12">
           <div className="flex-1">
             <h2 className="md:text-left text-center text-2xl md:text-4xl font-bold  mb-4 md:hidden block" id="change">
               JAMEL ESSOUALEH
             </h2>
-            <img src={mrjamal} alt="" className="w-full" />
+            <img src={mrjamal} alt="" className="w-full" id="essoualeh" />
           </div>
           <div className="md:w-3/5 mx-auto">
             <h2 className="md:text-left text-center text-2xl md:text-4xl font-bold  mb-4 hidden md:block" id="change">

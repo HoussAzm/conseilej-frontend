@@ -38,3 +38,31 @@
 .conseil{
     color: #edc768;
 }
+#essoualeh{
+    border-radius: 3%;
+}
+.titre14{
+    color: #edc768;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+#navitem:hover{
+    color: #edc768;
+}
+
+.imgs {
+    width: 100%;
+    height: auto;
+    border-radius: 3%;
+    margin-top: 1rem;
+    background-color: #000; /* Couleur de fond pour la vidéo */
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .imgs {
+      width: 400px;
+      margin-top: 0;
+    }
+  }
+  

@@ -76,7 +76,7 @@ const MyFooter = () => {
                   Tél : +212 661-656716
                 </Footer.Link>
                 <Footer.Link id="link" href="" className="text-white">
-                  Jamel.Essoualeh@conseilej.com
+                  conceilej.contact@gmail.com
                 </Footer.Link>
               </Footer.LinkGroup>
             </div>
