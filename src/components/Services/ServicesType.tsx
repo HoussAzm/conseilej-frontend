@@ -14,31 +14,31 @@ const ServicesType = () => {
       </p>
       <div className="mb-12 mt-8 flex flex-wrap justify-center lg:justify-between items-start gap-8">
         <div className="flex flex-col items-center text-center transition duration-500 transform hover:scale-110">
-          <img className="h-20 aspect-square" src={copy} alt="conseil" />
+          <img className="h-10 aspect-square" src={copy} alt="conseil" />
           <p className="mt-2 text-white font-bold">Maitrise d'ouvrage</p>
         </div>
         <div className="flex flex-col items-center text-center  lg:mt-0 transition duration-500 transform hover:scale-110">
-          <img className="h-20 aspect-square" src={augmentation} alt="" />
+          <img className="h-10 aspect-square" src={augmentation} alt="" />
           <p className="mt-2 text-white font-bold">Investissement</p>
         </div>
         <div className="flex flex-col items-center text-center mt-6 lg:mt-0 transition duration-500 transform hover:scale-110">
-          <img className="h-20 aspect-square" src={banking} alt="" />
+          <img className="h-10 aspect-square" src={banking} alt="" />
           <p className="mt-2 text-white font-bold">Gestion Patrimonial</p>
         </div>
         <div className="flex flex-col items-center text-center mt-6 lg:mt-0 transition duration-500 transform hover:scale-110">
-          <img className="h-20 aspect-square" src={property} alt="" />
+          <img className="h-10 aspect-square" src={property} alt="" />
           <p className="mt-2 text-white font-bold">Transaction immobilière</p>
         </div>
         <div className="flex flex-col items-center text-center mt-6 lg:mt-0 transition duration-500 transform hover:scale-110">
-          <img className="h-20 aspect-square " src={management} alt="" />
+          <img className="h-10 aspect-square " src={management} alt="" />
           <p className="mt-2 text-white font-bold">Aménagement</p>
         </div>
         <div className="flex flex-col items-center text-center mt-6 lg:mt-0 transition duration-500 transform hover:scale-110">
-          <img className="h-20 aspect-square " src={location} alt="" />
+          <img className="h-10 aspect-square " src={location} alt="" />
           <p className="mt-2 text-white font-bold">Gestion Locatif</p>
         </div>
         <div className="flex flex-col items-center text-center mt-6 lg:mt-0 transition duration-500 transform hover:scale-110">
-          <img className="h-20 aspect-square " src={papieradmini} alt="" />
+          <img className="h-10 aspect-square " src={papieradmini} alt="" />
           <p className="mt-2 text-white font-bold">Papier Adminisratifs</p>
         </div>
       </div>

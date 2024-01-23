@@ -1,6 +1,5 @@
 import Container from "../UI/Container";
 import SectionTitle from "../UI/SectionTitle";
-
 import membership from "../../assets/icons/membership.png";
 import association from "../../assets/icons/association.png";
 import groupClub from "../../assets/icons/group-club.png";
@@ -8,21 +7,21 @@ import groupClub from "../../assets/icons/group-club.png";
 const services = [
   {
     id: 1,
-    title: "Pourquoi confier sa gestion patrimoniale",
+    title: "POURQUOI CONFIER SA GESTION PATRIMONIALE",
     decription:
       " Nous pourrons construire une relation exclusive, sur la durée, qui vous permettra d’accéder à une grande offre de solutions et à des préconisations d’investissement personnalisées en fonction de vos objectifs .",
     image: membership,
   },
   {
     id: 2,
-    title: "Déterminez vos objectifs",
+    title: "DÉTERMINEZ VOS OBJECTIFS",
     decription:
       "Commencer à épargner, générer des futurs revenus complémentaires, faire mieux fructifier votre patrimoine actuel : il convient d’abord de déterminer vos objectifs à moyen et long terme.",
     image: association,
   },
   {
     id: 3,
-    title: "Votre horizon de placement",
+    title: "VOTRE HORIZON DE PLACEMENT",
     decription:
       "Durant combien de mois ou d’années, êtes-vous prêt à immobiliser cet argent ?",
     image: groupClub,

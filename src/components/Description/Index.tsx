@@ -11,20 +11,20 @@ import building from "../../assets/building.png";
 const services = [
   {
     id: 1,
-    title: "Sa liquidité",
+    title: "SA LIQUIDITÉ",
     decription:
       "Votre argent est-il bloqué, combien de temps vous faudra-t-il pour pouvoir le récupérer ?",
     image: liquidite,
   },
   {
     id: 2,
-    title: "Son rendement",
-    decription: "Est-il garanti ? à combien peut-il s’élever ?",
+    title: "SON RENDEMENT",
+    decription: "Est-il garanti ? À combien peut-il s’élever ?",
     image: rendement,
   },
   {
     id: 3,
-    title: "Son niveau de risque",
+    title: "SON NIVEAU DE RISQUE",
     decription:
       "Pouvez-vous perdre une partie de votre capital ? Si oui, êtes-vous prêt à l’accepter et jusqu’à combien ?",
     image: risque,
@@ -65,7 +65,7 @@ const Index = () => {
             UN EXPERT ET SON ÉQUIPE POUR BIEN GÉRER VOTRE PATRIMOINE
           </h2>
           <p className="font-bold">
-            RÉSERVEZ ET DECOUVRER FORFAITS AU PRIX LE PLUS BAS
+            RÉSERVEZ ET DÉCOUVREZ FORFAITS AU PRIX LE PLUS BAS
           </p>
         </div>
 

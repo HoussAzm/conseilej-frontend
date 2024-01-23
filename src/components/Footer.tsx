@@ -88,7 +88,7 @@ const MyFooter = () => {
               />
               <Footer.LinkGroup col>
                 <Footer.Link id="link" href="" className="text-white">
-                  Lundi - Samedi 9h00 à 18h00
+                  Lundi - Samedi 10h00 à 18h00
                 </Footer.Link>
               </Footer.LinkGroup>
             </div>
