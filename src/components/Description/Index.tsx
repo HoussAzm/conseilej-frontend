@@ -1,10 +1,8 @@
 import Container from "../UI/Container";
 import ChewNous from "./ChewNous";
-
 import liquidite from "../../assets/liquidite.png";
 import rendement from "../../assets/rendement.png";
 import risque from "../../assets/risque.png";
-
 import membres from "../../assets/membres.png";
 import villaicon from "../../assets/villaicon.png";
 import villa from "../../assets/icons/villa.png";
