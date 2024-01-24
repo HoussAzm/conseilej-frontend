@@ -68,14 +68,6 @@ function Contact() {
               rows={5}
             ></textarea>
             <input
-              name="from_date"
-              type="date"
-              placeholder="date"
-              className="w-full bg-white border border-gray-300 text-black rounded py-3 px-3 outline-none appearance-none focus:outline-none focus:border-gray-300 custom-date-input" // Ajoutez la classe custom-date-input
-              lang="fr"
-              required
-            />
-            <input
               type="submit"
               name="submit"
               className="w-full text-white rounded py-2 uppercase font-semibold cursor-pointer text-lg" id="changebtn"
