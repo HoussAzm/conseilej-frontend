@@ -67,3 +67,23 @@
     }
   }
   
+/* Ajoutez ce style à votre feuille de style CSS */
+.custom-date-input {
+    /* Ajoutez ici vos styles personnalisés pour l'input date */
+    /* Par exemple, pour changer la couleur du texte et du fond : */
+    color: #333;
+    background-color: #fff;
+    /* Ajoutez d'autres styles selon vos besoins */
+  }
+  
+
+/* Ajoutez ce style à votre feuille de style CSS */
+.custom-textarea {
+    /* Ajoutez ici vos styles personnalisés pour la zone de texte */
+    /* Par exemple, pour changer la couleur du texte et du fond, et ajuster la bordure : */
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    /* Ajoutez d'autres styles selon vos besoins */
+  }
+  

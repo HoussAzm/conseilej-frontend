@@ -12,7 +12,7 @@ const Navbar = () => {
     { href: "a_propos", text: "À PROPOS" },
     { href: "nos_projets", text: "PROJET" },
     { href: "service", text: "SERVICE" },
-    { href: "contact", text: "CONTACT" },
+    { href: "contact", text: "CONTACT & PRISE RENDEZ-VOUS" },
   ];
 
   const toggleMenu = () => {
