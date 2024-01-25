@@ -5,7 +5,7 @@ import Container from "./UI/Container";
 
 const MyFooter = () => {
   return (
-    <footer className="bg-gray-800 text-white mt-12">
+    <footer className="bg-gray-700 text-white mt-12">
       <Container>
         <div className="px-4 lg:px-14 py-12">
           <div className="grid grid-cols-1 gap-8 items-start sm:mt-4 md:grid-cols-2 lg:grid-cols-4 md:gap-12 text-white">
