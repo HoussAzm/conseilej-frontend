@@ -73,7 +73,7 @@ const MyFooter = () => {
               />
               <Footer.LinkGroup col>
                 <Footer.Link id="link" href="" className="text-white ">
-                  Tél : +212 661-656716
+                  Tél : +212 5 24 43 43 97
                 </Footer.Link>
                 <Footer.Link id="link" href="" className="text-white">
                   conceilej.contact@gmail.com
