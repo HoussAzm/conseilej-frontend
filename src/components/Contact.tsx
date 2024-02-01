@@ -10,7 +10,7 @@ function Contact() {
 
     emailjs
       .sendForm(
-        import.meta.env.VITE_SERVECEKEY,
+        import.meta.env.VITE_SERVECEKEY, 
         import.meta.env.VITE_TEMPLATEKEY,
         form.current as HTMLFormElement,
         import.meta.env.VITE_PUBLICKEY
@@ -24,6 +24,7 @@ function Contact() {
         }
       );
   };
+  
   return (
     <Container>
       <div
