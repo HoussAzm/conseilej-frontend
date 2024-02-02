@@ -1,4 +1,4 @@
-import presentation from "../../assets/presentation.mp4";
+import villanight from "../../assets/villanight.jpg"
 import Container from "../UI/Container";
 
 
@@ -19,10 +19,7 @@ const Expatriation = () => {
           </div>
 
           <div>
-            <video autoPlay controls className="imgs" width="100%" height="auto">
-              <source src={presentation} type="video/mp4" />
-              Votre navigateur ne prend pas en charge la balise vidéo.
-            </video>
+           <img src={villanight} alt="" className="w-100" />
           </div>
         </div>
       </div>

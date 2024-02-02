@@ -1,11 +1,13 @@
-import villanight from "../../assets/villanight.jpg";
-
+import presentation from "../../assets/presentation.mp4";
 const ChewNous = () => {
   return (
     <div className="px-4 lg:px-14 max-w-screen-2xl mx-auto pb-8 pt-12" id="about">
       <div className="md:w-11/12 mx-auto flex flex-col md:flex-row justify-between items-center gap-12">
         <div>
-          <img src={villanight} alt="" className="w-100" />
+          <video controls autoPlay>
+            <source src={presentation} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
         </div>
         <div className="md:w-3/5 mx-auto">
           <h2 className="text-2xl md:text-left text-center md:text-4xl font-bold  pb-4" id="change">
@@ -23,5 +25,4 @@ const ChewNous = () => {
     </div>
   );
 };
-
 export default ChewNous;
