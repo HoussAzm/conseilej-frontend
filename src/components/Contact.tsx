@@ -4,7 +4,7 @@ import Container from "./UI/Container";
 
 function Contact() {
   const form = useRef<HTMLFormElement>();
-
+  
   const sendEmail = (e: FormEvent) => {
     e.preventDefault();
 
