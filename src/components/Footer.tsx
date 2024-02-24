@@ -73,10 +73,11 @@ const MyFooter = () => {
               />
               <Footer.LinkGroup col>
                 <Footer.Link id="link" href="" className="text-white ">
-                  Tél : +212 5 24 43 43 97
+                Tél : +212 6 55 40 86 52
+                Fix : +212 5 24 43 43 97
                 </Footer.Link>
                 <Footer.Link id="link" href="" className="text-white">
-                  conceilej.contact@gmail.com
+                  conseilej.contact@gmail.com
                 </Footer.Link>
               </Footer.LinkGroup>
             </div>
