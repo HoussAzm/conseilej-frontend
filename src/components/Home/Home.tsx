@@ -1,4 +1,3 @@
-import React from "react";
 import CarouselItem from "./CarouselItem";
 import { Carousel } from "flowbite-react";
 import architecture from "../../assets/architecture.jpg";
