@@ -1,3 +1,4 @@
+import React from "react";
 import CarouselItem from "./CarouselItem";
 import { Carousel } from "flowbite-react";
 import architecture from "../../assets/architecture.jpg";
@@ -31,6 +32,29 @@ const Home = () => {
             <CarouselItem {...item} key={index} />
           ))}
         </Carousel>
+      </div>
+
+      {/* Bouton WhatsApp fixe */}
+      <div
+        style={{
+          position: "fixed",
+          bottom: "20px",
+          right: "20px",
+          zIndex: "1000",
+        }}
+      >
+        <a
+          href="https://wa.me/212655408652"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/598px-WhatsApp.svg.png"
+            alt="WhatsApp"
+            width="50"
+            height="50"
+          />
+        </a>
       </div>
     </div>
   );
