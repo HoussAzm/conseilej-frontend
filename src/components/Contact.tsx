@@ -1,30 +1,55 @@
-import { FormEvent, useRef } from "react";
+import { FormEvent, useRef, useState, useEffect } from "react";
 import emailjs from "@emailjs/browser";
 import Container from "./UI/Container";
 
 function Contact() {
   const form = useRef<HTMLFormElement>();
-  
+  const [selectedDate, setSelectedDate] = useState<string>("");
+
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js";
+    script.async = true;
+    script.onload = () => {
+      emailjs.init("UngTKy8NU3KgRf5d7");
+    };
+    document.head.appendChild(script);
+
+    return () => {
+      // Nettoyer le script si le composant est démonté
+      document.head.removeChild(script);
+    };
+  }, []);
+
   const sendEmail = (e: FormEvent) => {
     e.preventDefault();
 
+    // Vous pouvez maintenant utiliser la valeur de selectedDate lors de l'envoi de l'e-mail
     emailjs
       .sendForm(
-        import.meta.env.VITE_SERVECEKEY, 
-        import.meta.env.VITE_TEMPLATEKEY,
+        "service_kvitzpf",
+        "template_n48o0n8",
         form.current as HTMLFormElement,
-        import.meta.env.VITE_PUBLICKEY
       )
       .then(
         (result) => {
-          if (result.text === "OK") form.current?.reset();
+          if (result.text === "OK") {
+            form.current?.reset();
+            // Réinitialise également la date sélectionnée après l'envoi réussi si nécessaire
+            setSelectedDate("");
+            alert("Le formulaire a été envoyé avec succès !");
+          }
         },
         (error) => {
-          console.log(error.text);
+          alert("Erreur lors de l'envoi du formulaire" + error.text);
         }
       );
   };
-  
+
+  const handleDateChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setSelectedDate(e.target.value);
+  };
+
   return (
     <Container>
       <div
@@ -45,7 +70,6 @@ function Contact() {
           <h1 className="text-2xl md:text-4xl  font-bold mb-4" id="change">
             Contactez-Nous
           </h1>
-          {/* @ts-expect-error ddf */}
           <form action="" className="space-y-4" onSubmit={sendEmail} ref={form}>
             <input
               name="from_name"
@@ -60,6 +84,14 @@ function Contact() {
               placeholder="Email"
               className="w-full bg-white border border-gray-300 text-black rounded py-3 px-3 outline-none"
               required
+            />
+            <input
+              type="date"
+              name="calendrier"
+              placeholder="Précisez votre date"
+              className="w-full bg-white border border-gray-300 rounded text-black py-2 px-3 outline-none"
+              value={selectedDate}
+              onChange={handleDateChange}
             />
             <textarea
               name="message"
