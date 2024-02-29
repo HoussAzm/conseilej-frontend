@@ -70,7 +70,7 @@ function Contact() {
           <h1 className="text-2xl md:text-4xl  font-bold mb-4" id="change">
             Contactez-Nous
           </h1>
-          <form action="" className="space-y-4" onSubmit={sendEmail} ref={form}>
+          <form action="" className="space-y-4" onSubmit={sendEmail} ref={form as React.RefObject<HTMLFormElement>}>
             <input
               name="from_name"
               type="text"
@@ -87,11 +87,12 @@ function Contact() {
             />
             <input
               type="date"
-              name="calendrier"
+              name="date"  // This should match the field name used in sendForm
               placeholder="Précisez votre date"
               className="w-full bg-white border border-gray-300 rounded text-black py-2 px-3 outline-none"
               value={selectedDate}
               onChange={handleDateChange}
+              required
             />
             <textarea
               name="message"
@@ -103,7 +104,7 @@ function Contact() {
               type="submit"
               name="submit"
               className="w-full  text-white rounded py-2 uppercase font-semibold cursor-pointer text-lg" id="changebtn"
-              // value={sending ? "En coure..." : "Envoyer"}
+            // value={sending ? "En coure..." : "Envoyer"}
             />
           </form>
         </div>
