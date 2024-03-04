@@ -18,7 +18,7 @@ const ChewNous = () => {
             location. C'est une expérience de vie exceptionnelle que nous vous
             offrons. Contactez-nous dès aujourd'hui pour découvrir nos offres
             sur mesure et laissez-vous séduire par le luxe discret et l'harmonie
-            de nos propriétés."
+            de nos propriétés.
           </p>
         </div>
       </div>
