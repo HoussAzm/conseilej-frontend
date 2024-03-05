@@ -51,7 +51,7 @@ function Contact() {
   };
 
   return (
-    <Container>
+    <Container> 
       <div
         className="contact-in mx-auto flex flex-col-reverse md:flex-row  flex-wrap gap-6 rounded-lg shadow-md"
         id="contact"
@@ -94,6 +94,14 @@ function Contact() {
               onChange={handleDateChange}
               required
             />
+            <div className="checkliste">
+              <div>
+                <input type="checkbox" name="telephonique" id="telephonique"/> Rendez-vous téléphonique
+              </div>
+              <div>
+                <input type="checkbox" name="place" id="place"/> Rendez-vous sur place
+              </div>
+            </div>
             <textarea
               name="message"
               placeholder="Message"

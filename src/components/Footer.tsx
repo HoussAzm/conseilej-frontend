@@ -47,7 +47,7 @@ const MyFooter = () => {
                   className="text-white"
                 />
               </div>
-            </div>
+            </div>  
             <div className="flex-1">
               <Footer.Title
                 id="footertitle"

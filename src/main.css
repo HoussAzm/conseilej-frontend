@@ -91,3 +91,7 @@ html, body{
     /* Ajoutez d'autres styles selon vos besoins */
   }
   
+.checkliste{
+    display: flex;
+    justify-content: space-around;
+}
