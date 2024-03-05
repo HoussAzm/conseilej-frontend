@@ -1,7 +1,7 @@
 import presentation from "../../assets/presentation.mp4";
 const ChewNous = () => {
   return (
-    <div className="px-4 lg:px-14 max-w-screen-2xl mx-auto pb-8 pt-12" id="about">
+    <div className="px-4 lg:px-14 max-w-screen-2xl mx-auto pb-8 pt-12" id="CONSEIL-DESCRIPTION">
       <div className="md:w-11/12 mx-auto flex flex-col md:flex-row justify-between items-center gap-12">
         <div>
           <video controls autoPlay>

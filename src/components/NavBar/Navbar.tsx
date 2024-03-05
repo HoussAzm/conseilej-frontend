@@ -6,13 +6,13 @@ import menu from "../../assets/menu.png";
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false); // Utilisation d'un état pour contrôler l'ouverture du menu sur mobile
   const navbarItems = [
-    { href: "home", text: "ACCUEIL" },
-    { href: "about", text: "DESCRIPTION" },
-    { href: "expatriation" , text:"EXPATRIATION"},
-    { href: "a_propos", text: "À PROPOS" },
-    { href: "nos_projets", text: "PROJET" },
-    { href: "service", text: "SERVICE" },
-    { href: "contact", text: "CONTACT & PRISE RENDEZ-VOUS" },
+    { href: "CONSEIL-ACCEUIL", text: "ACCUEIL" },
+    { href: "CONSEIL-DESCRIPTION", text: "DESCRIPTION" },
+    { href: "EXPATRIATION" , text:"EXPATRIATION"},
+    { href: "CONSEIL", text: "À PROPOS" },
+    { href: "CONSEIL-PROJET", text: "PROJET" },
+    { href: "CONSEIL-SERVICE", text: "SERVICE" },
+    { href: "CONSEIL-CONTACT", text: "CONTACT & PRISE RENDEZ-VOUS" },
   ];
 
   const toggleMenu = () => {

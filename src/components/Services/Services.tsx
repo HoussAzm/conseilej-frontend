@@ -7,7 +7,7 @@ import Fonctionement from "./Fonctionement";
 const Services = () => {
   return (
     <Container>
-      <div id="service" className="md:py-24 py-8">
+      <div id="CONSEIL-SERVICE" className="md:py-24 py-8">
         <SectionTitle title="NOS SERVICES" />
         <ServicesTable />
         <ServicesType />

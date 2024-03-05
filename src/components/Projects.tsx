@@ -18,7 +18,7 @@ const Projects = () => {
 
   return (
     <Container>
-      <div className=" mx-auto my-12 md:my-24" id="nos_projets">
+      <div className=" mx-auto my-12 md:my-24" id="CONSEIL-PROJET">
         <div className="text-center md:w-1/2 mx-auto">
           <h2 className="text-2xl md:text-4xl  font-bold mb-4" id="change">
             DÉCOUVREZ NOS PROJETS

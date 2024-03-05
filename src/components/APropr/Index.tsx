@@ -9,7 +9,7 @@ import mrjamal from "../../assets/mrjamal.jpg"
 
 const Inder = () => {
   return (
-    <Container id="a_propos">
+    <Container id="CONSEIL">
       <div className="md:px-4 lg:px-14 max-w-screen-2xl mx-auto my-14 md:my-24">
         <div className="md:w-11/12 mx-auto flex flex-col md:flex-row justify-between items-center gap-12">
           <div className="flex-1">
@@ -58,11 +58,11 @@ const Inder = () => {
               </p>
               <div>
                 <div className="flex gap-8 items-center flex-wrap">
-                  <img src={house} alt="" title="Gestion Patrimonial"  className="w-10" />
+                  <img src={house} alt="" title="Conseil"  className="w-10" />
                   <img src={finance} alt="" title="Investissement" className="w-10" />
-                  <img src={assurance} alt="" title="Gestion Locatif" className="w-10" />
-                  <img src={patrimonial} alt="" title="Aménagement" className="w-10" />
-                  <img src={papier} alt="" title="Papier Administratifs" className="w-10" />
+                  <img src={assurance} alt="" title="Conseil" className="w-10" />
+                  <img src={patrimonial} alt="" title="Conseil" className="w-10" />
+                  <img src={papier} alt="" title="Conseil" className="w-10" />
                  
                 </div>
               </div>

@@ -24,7 +24,7 @@ const carouselItems = [
 
 const Home = () => {
   return (
-    <div className="" id="home">
+    <div className="" id="CONSEIL-ACCEUIL">
       <div className="lg:px-14 max-w-screen-2xl mx-auto min-h-max lg:h-[800px] flex justify-center items-center px-4">
         <Carousel className="w-full mx-auto">
           {carouselItems.map((item, index) => (
