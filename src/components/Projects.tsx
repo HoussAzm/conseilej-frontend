@@ -39,6 +39,7 @@ const Projects = () => {
                   src={image}
                   alt={`Image ${index + 1}`}
                   className="w-full h-auto"
+                  title="CONSEIL"
                 />
               </div>
             </div>

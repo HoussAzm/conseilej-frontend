@@ -16,7 +16,7 @@ const Inder = () => {
             <h2 className="md:text-left text-center text-2xl md:text-4xl font-bold  mb-4 md:hidden block" id="change">
               JAMEL ESSOUALEH
             </h2>
-            <img src={mrjamal} alt="" className="w-full" id="essoualeh" />
+            <img src={mrjamal} alt="" title="CONSEIL" className="w-full" id="essoualeh" />
           </div>
           <div className="md:w-3/5 mx-auto">
             <h2 className="md:text-left text-center text-2xl md:text-4xl font-bold  mb-4 hidden md:block" id="change">
@@ -58,18 +58,18 @@ const Inder = () => {
               </p>
               <div>
                 <div className="flex gap-8 items-center flex-wrap">
-                  <img src={house} alt="" className="w-10" />
-                  <img src={finance} alt="" className="w-10" />
-                  <img src={assurance} alt="" className="w-10" />
-                  <img src={patrimonial} alt="" className="w-10" />
-                  <img src={papier} alt="" className="w-10" />
+                  <img src={house} alt="" title="Gestion Patrimonial"  className="w-10" />
+                  <img src={finance} alt="" title="Investissement" className="w-10" />
+                  <img src={assurance} alt="" title="Gestion Locatif" className="w-10" />
+                  <img src={patrimonial} alt="" title="Aménagement" className="w-10" />
+                  <img src={papier} alt="" title="Papier Administratifs" className="w-10" />
                  
                 </div>
               </div>
             </div>
           </div>
           <div className="md:w-1/3 flex justify-end">
-            <img className="w-80" src={cej} alt="" />
+            <img className="w-80" src={cej} alt="" title="CONSEIL IMMOBILIER"/>
           </div>
         </div>
       </div>

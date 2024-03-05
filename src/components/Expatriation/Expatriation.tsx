@@ -19,7 +19,7 @@ const Expatriation = () => {
           </div>
 
           <div>
-           <img src={villanight} alt="" className="w-100" />
+           <img src={villanight} title="EXPATRIÉ" className="w-100" alt="Expatriation" />
           </div>
         </div>
       </div>

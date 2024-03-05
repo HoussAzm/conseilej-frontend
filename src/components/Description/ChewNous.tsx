@@ -5,7 +5,7 @@ const ChewNous = () => {
       <div className="md:w-11/12 mx-auto flex flex-col md:flex-row justify-between items-center gap-12">
         <div>
           <video controls autoPlay>
-            <source src={presentation} type="video/mp4" />
+            <source src={presentation} type="video/mp4"/>
             Your browser does not support the video tag.
           </video>
         </div>
