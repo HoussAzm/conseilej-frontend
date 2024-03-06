@@ -45,9 +45,9 @@ const Index = () => {
             key={service.id}
             className="px-4 py-8 text-center md:w-[300px] mx-auto rounded-md shadow cursor-pointer hover:-translate-y-5 text-white hover:bg-[#E8F5E9] transition-all duration-500 flex items-center justify-center h-full hover:text-black"
           >
-            <div className="h-full">
+            <div className="h-full" title="DÉVELOPPEMENT STRATÉGIQUE">
               <div className="bg-[#E8F5E9] w-14 h-14 flex justify-center items-center mx-auto mb-4 rounded-tl-3xl rounded-br-3xl">
-                <img src={service.image} alt="w-full" className="" />
+                <img src={service.image} alt="w-full" title="finance" className="" />
               </div>
               <h4 className="text-lg md:text-2xl font-bold  mb-2 px-2" id="change">
                 {service.title}
@@ -61,7 +61,7 @@ const Index = () => {
       </div>
       <div className="flex flex-col md:flex-row justify-between items-center gap-8 bg-gray-50 text-black px-4 py-6 md:px-8 md:py-12 rounded mt-8 md:my-20">
         <div className="md:w-1/2">
-          <h2 className="text-2xl md:text-4xl text-neutralDGrey mb-2 md:w-2/3 text- font-semibold">
+          <h2 className="text-2xl md:text-4xl text-neutralDGrey mb-2 md:w-2/3 text- font-semibold" title="CONSEIL">
             UN EXPERT ET SON ÉQUIPE POUR BIEN GÉRER VOTRE PATRIMOINE
           </h2>
           <p className="font-bold">
@@ -73,7 +73,7 @@ const Index = () => {
         <div className="md:w-1/2 mx-auto flex sm:flex-row flex-col sm:items-center justify-around gap-12 ">
           <div className="space-y-8">
             <div className="flex items-center gap-4">
-              <img className="w-12" src={membres} alt="" />
+              <img className="w-12" src={membres} alt="" title="INVESSTISSEMENT" />
               <div>
                 <h4 className="text-2xl text-neutralDGrey font-semibold">
                   1500+
@@ -82,7 +82,7 @@ const Index = () => {
               </div>
             </div>
             <div className="flex items-center gap-4">
-              <img className="w-12" src={villaicon} alt="" />
+              <img className="w-12" src={villaicon} alt="" title="IMMOBILIÈRE" />
               <div>
                 <h4 className="text-2xl text-neutralDGrey font-semibold">
                   800+
@@ -93,7 +93,7 @@ const Index = () => {
           </div>
           <div className="space-y-8">
             <div className="flex items-center gap-4">
-              <img className="w-12" src={villa} alt="" />
+              <img className="w-12" src={villa} alt="" title="NIVEAU DE RISQUE"/>
               <div>
                 <h4 className="text-2xl text-neutralDGrey font-semibold">
                   150+
@@ -102,7 +102,7 @@ const Index = () => {
               </div>
             </div>
             <div className="flex items-center gap-4">
-              <img className="w-12" src={building} alt="" />
+              <img className="w-12" src={building} alt=""  title="STRATÉGIQUE"/>
               <div>
                 <h4 className="text-2xl text-neutralDGrey font-semibold">
                   1000+

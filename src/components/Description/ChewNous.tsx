@@ -11,14 +11,19 @@ const ChewNous = () => {
         </div>
         <div className="md:w-3/5 mx-auto">
           <h2 className="text-2xl md:text-left text-center md:text-4xl font-bold  pb-4" id="change">
-            CEJ
+            CONSEIL EJ
           </h2>
           <p className="text-md font-semibold mb-8 text-justify">
-            Chez Conseil EJ , notre engagement va au-delà de la simple
-            location. C'est une expérience de vie exceptionnelle que nous vous
-            offrons. Contactez-nous dès aujourd'hui pour découvrir nos offres
-            sur mesure et laissez-vous séduire par le luxe discret et l'harmonie
-            de nos propriétés.
+          Bienvenue chez Conseil EJ, votre partenaire de confiance pour une gestion patrimoniale exceptionnelle.
+           Spécialisés dans le conseil patrimonial, l'immobilier de prestige, la gestion patrimoniale, le conseil
+            financier et l'investissement stratégique, nous nous engageons à vous offrir une expérience personnalisée 
+            et enrichissante.
+
+          Chez Conseil EJ, nous comprenons l'importance de la planification patrimoniale dans la réalisation
+           de vos objectifs financiers. Notre équipe dédiée de professionnels chevronnés vous accompagne à chaque étape,
+            offrant des conseils avisés pour maximiser vos actifs et assurer la croissance de votre patrimoine.
+
+            La gestion patrimoniale est au cœur de notre mission, et nous nous efforçons de créer des stratégies sur mesure adaptées à vos besoins spécifiques. Nos conseils financiers éclairés visent à optimiser vos ressources et à sécuriser votre avenir financier.
           </p>
         </div>
       </div>

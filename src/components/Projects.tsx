@@ -20,7 +20,7 @@ const Projects = () => {
     <Container>
       <div className=" mx-auto my-12 md:my-24" id="CONSEIL-PROJET">
         <div className="text-center md:w-1/2 mx-auto">
-          <h2 className="text-2xl md:text-4xl  font-bold mb-4" id="change">
+          <h2 className="text-2xl md:text-4xl  font-bold mb-4" id="change" title="">
             DÉCOUVREZ NOS PROJETS
           </h2>
           <p className="text-md font-semibold mb-8 text-justify">

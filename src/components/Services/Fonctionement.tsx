@@ -32,7 +32,7 @@ const Index = () => {
   return (
     <Container>
       <section className="mt-24">
-        <SectionTitle title="FONCTIONNEMENT" />
+        <SectionTitle title="FONCTIONNEMENT"/>
         <p className="text-white text-md font-semibold w-full max-w-2xl text-center mx-auto mt-2">
           Je vous accompagnerai afin de constituer une épargne financière et
           immobilière. Nous ferons également le point sur votre situation
@@ -47,7 +47,7 @@ const Index = () => {
             >
               <div className="h-full">
                 <div className="bg-[#E8F5E9] w-14 h-14 flex justify-center items-center mx-auto mb-4 rounded-tl-3xl rounded-br-3xl">
-                  <img src={service.image} alt="w-full" className="" />
+                  <img src={service.image} alt="w-full" title="CONSEIL" className=""/>
                 </div>
                 <h4 className="text-lg md:text-2xl font-bold  mb-2 px-2" id="change">
                   {service.title}
