@@ -24,7 +24,7 @@ const CarouselItem: React.FC<CarouselItemProps> = ({ title, subTitle, image }) =
 
   return (
     <div className="carousel-item" style={itemStyle}>
-      <h2 className="text-3xl font-bold text-gray-800">{title}</h2>
+      <h2 className="text-3xl font-bold text-gray-800" >{title}</h2>
       <p className="text-lg mt-4 font-bold text-gray-800">{subTitle}</p>
     </div>
   );
