@@ -22,6 +22,7 @@ const carouselItems = [
   },
 ];
 
+
 const Home = () => {
   return (
     <div className="" id="CONSEIL-ACCEUIL">
