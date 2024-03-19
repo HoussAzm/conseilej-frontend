@@ -16,22 +16,22 @@ const tableData = [
   },
   {
     col1: "Investissement - Étude de Projet",
-    col2: "1500Є",
+    col2: "15000Є",
     col3: "Analyse approfondie d'un projet d'investissement. Inclut une évaluation de la faisabilité, des risques et des opportunités, ainsi que des recommandations pour optimiser le rendement ",
   },
   {
     col1: "Investissement - Business Plan",
-    col2: "500Є",
+    col2: "5000Є",
     col3: "Élaboration d'un business plan détaillé pour le projet d'investissement. Inclut une analyse financière, une stratégie de mise en œuvre et une évaluation des retours sur investissement prévus.",
   },
   {
     col1: "Investissement - Étude de Marche",
-    col2: "500Є",
+    col2: "5000Є",
     col3: "Analyse approfondie du marché pour évaluer la viabilité du projet d'investissement.Inclut une étude concurrentielle, une analyse des tendances du marché et recommandations pour maximiser la rentabilité.",
   },
   {
     col1: "Investissement - Étude Financiere",
-    col2: "500Є",
+    col2: "5000Є",
     col3: "Étude financière pour évaluer les aspects budgétaires et les projections financières du projet. Inclut des analyses de rentabilité , de coûtes et des scénarios financiers pour une prise de décision éclairée",
   },
   { col1: "PROJET", col2: "Variable", col3: "----" },
