@@ -58,18 +58,18 @@ const Inder = () => {
               </p>
               <div>
                 <div className="flex gap-8 items-center flex-wrap">
-                  <img src={house} alt="" title="Conseil"  className="w-10" />
-                  <img src={finance} alt="" title="Investissement" className="w-10" />
-                  <img src={assurance} alt="" title="Conseil" className="w-10" />
-                  <img src={patrimonial} alt="" title="Conseil" className="w-10" />
-                  <img src={papier} alt="" title="Conseil" className="w-10" />
+                  <img src={house} alt="conseil" title=""  className="w-10" />
+                  <img src={finance} alt="Invesstissement" title="" className="w-10" />
+                  <img src={assurance} alt="Assurance" title="" className="w-10" />
+                  <img src={patrimonial} alt="Patrimonial" title="" className="w-10" />
+                  <img src={papier} alt="papier administratif" title="" className="w-10" />
                  
                 </div>
               </div>
             </div>
           </div>
           <div className="md:w-1/3 flex justify-end">
-            <img className="w-80" src={cej} alt="" title="CONSEIL IMMOBILIER"/>
+            <img className="w-80" src={cej} alt="LOGO CEJ" title="CONSEIL IMMOBILIER"/>
           </div>
         </div>
       </div>
