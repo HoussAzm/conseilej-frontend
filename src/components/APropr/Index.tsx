@@ -16,7 +16,7 @@ const Inder = () => {
             <h2 className="md:text-left text-center text-2xl md:text-4xl font-bold  mb-4 md:hidden block" id="change">
               JAMEL ESSOUALEH
             </h2>
-            <img src={mrjamal} alt="" title="CONSEIL" className="w-full" id="essoualeh" />
+            <img src={mrjamal} alt="MR JAMEL" title="CONSEIL" className="w-full" id="essoualeh" />
           </div>
           <div className="md:w-3/5 mx-auto">
             <h2 className="md:text-left text-center text-2xl md:text-4xl font-bold  mb-4 hidden md:block" id="change">

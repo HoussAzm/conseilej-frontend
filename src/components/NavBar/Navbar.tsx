@@ -24,7 +24,7 @@ const Navbar = () => {
       <div className="max-w-screen-2xl flex flex-col items-center justify-center mx-auto p-4">
         {/* Logo centré */}
         <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse mb-4">
-          <img src={cejlogo1} className="h-20" alt="Flowbite Logo" />
+          <img src={cejlogo1} className="h-20" alt="LOGO" />
         </a>
 
         {/* Bouton pour ouvrir le menu sur mobile */}
@@ -36,7 +36,7 @@ const Navbar = () => {
             <img
               src={menu}
               className={`h-10 menu-icon ${isMenuOpen ? 'rotate-90' : ''}`}
-              alt="Flowbite Logo"
+              alt="IMAGE LOGO"
             />
           </button>
         </div>

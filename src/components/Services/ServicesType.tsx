@@ -17,27 +17,27 @@ const ServicesType = () => {
           <p className="mt-2 text-white font-bold">Maitrise d'ouvrage</p>
         </div>
         <div className="flex flex-col items-center text-center  lg:mt-0 transition duration-500 transform hover:scale-110">
-          <img className="h-10 aspect-square" src={augmentation} alt="" />
+          <img className="h-10 aspect-square" src={augmentation} alt="augmentation" />
           <p className="mt-2 text-white font-bold">Investissement</p>
         </div>
         <div className="flex flex-col items-center text-center mt-6 lg:mt-0 transition duration-500 transform hover:scale-110">
-          <img className="h-10 aspect-square" src={banking} alt="" />
+          <img className="h-10 aspect-square" src={banking} alt="gestion patrimonial" />
           <p className="mt-2 text-white font-bold">Gestion Patrimonial</p>
         </div>
         <div className="flex flex-col items-center text-center mt-6 lg:mt-0 transition duration-500 transform hover:scale-110">
-          <img className="h-10 aspect-square" src={property} alt="" />
+          <img className="h-10 aspect-square" src={property} alt="transaction immobiliere" />
           <p className="mt-2 text-white font-bold">Transaction immobilière</p>
         </div>
         <div className="flex flex-col items-center text-center mt-6 lg:mt-0 transition duration-500 transform hover:scale-110">
-          <img className="h-10 aspect-square " src={management} alt="" />
+          <img className="h-10 aspect-square " src={management} alt="management" />
           <p className="mt-2 text-white font-bold">Aménagement</p>
         </div>
         <div className="flex flex-col items-center text-center mt-6 lg:mt-0 transition duration-500 transform hover:scale-110">
-          <img className="h-10 aspect-square " src={location} alt="" />
+          <img className="h-10 aspect-square " src={location} alt="location" />
           <p className="mt-2 text-white font-bold">Gestion Locatif</p>
         </div>
         <div className="flex flex-col items-center text-center mt-6 lg:mt-0 transition duration-500 transform hover:scale-110">
-          <img className="h-10 aspect-square " src={papieradmini} alt="" />
+          <img className="h-10 aspect-square " src={papieradmini} alt="papier administrtifs" />
           <p className="mt-2 text-white font-bold">Papier Adminisratifs</p>
         </div>
       </div>

@@ -47,7 +47,7 @@ const Index = () => {
           >
             <div className="h-full" title="DÉVELOPPEMENT STRATÉGIQUE">
               <div className="bg-[#E8F5E9] w-14 h-14 flex justify-center items-center mx-auto mb-4 rounded-tl-3xl rounded-br-3xl">
-                <img src={service.image} alt="w-full" title="finance" className="" />
+                <img src={service.image} alt="finance" title="finance" className="" />
               </div>
               <h4 className="text-lg md:text-2xl font-bold  mb-2 px-2" id="change">
                 {service.title}
@@ -73,7 +73,7 @@ const Index = () => {
         <div className="md:w-1/2 mx-auto flex sm:flex-row flex-col sm:items-center justify-around gap-12 ">
           <div className="space-y-8">
             <div className="flex items-center gap-4">
-              <img className="w-12" src={membres} alt="" title="INVESSTISSEMENT" />
+              <img className="w-12" src={membres} alt="INVESSTISSEMENT" title="INVESSTISSEMENT" />
               <div>
                 <h4 className="text-2xl text-neutralDGrey font-semibold">
                   1500+
@@ -82,7 +82,7 @@ const Index = () => {
               </div>
             </div>
             <div className="flex items-center gap-4">
-              <img className="w-12" src={villaicon} alt="" title="IMMOBILIÈRE" />
+              <img className="w-12" src={villaicon} alt="IMMOBILIÈRE" title="IMMOBILIÈRE" />
               <div>
                 <h4 className="text-2xl text-neutralDGrey font-semibold">
                   800+
@@ -93,7 +93,7 @@ const Index = () => {
           </div>
           <div className="space-y-8">
             <div className="flex items-center gap-4">
-              <img className="w-12" src={villa} alt="" title="NIVEAU DE RISQUE"/>
+              <img className="w-12" src={villa} alt="NIVEAU DE RISQUE" title="NIVEAU DE RISQUE"/>
               <div>
                 <h4 className="text-2xl text-neutralDGrey font-semibold">
                   150+
@@ -102,7 +102,7 @@ const Index = () => {
               </div>
             </div>
             <div className="flex items-center gap-4">
-              <img className="w-12" src={building} alt=""  title="STRATÉGIQUE"/>
+              <img className="w-12" src={building} alt="STRATÉGIQUE"  title="STRATÉGIQUE"/>
               <div>
                 <h4 className="text-2xl text-neutralDGrey font-semibold">
                   1000+

@@ -16,7 +16,7 @@ const MyFooter = () => {
               >
                 <img
                   src={cejlogo1}
-                  alt=""
+                  alt="CEJ LOGO"
                   className="w-10 inline-block items-center"
                 />
                 <span className="conseil">CONSEIL EJ</span>
