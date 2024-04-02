@@ -104,8 +104,7 @@ const ServicesTable = () => {
           {tableData.map((item, index) => (
             <tr
               key={index}
-              className="bg-white border-b " id="tab"
-            >
+              className="bg-white border-b " id="tab">
               <td className="px-6 py-4 min-w-44">{item.col1}</td>
               <td className="px-6 py-4 min-w-36">{item.col2}</td>
               <td className="px-6 py-4 min-w-80">{item.col3 || "---"}</td>

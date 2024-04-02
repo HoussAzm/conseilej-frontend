@@ -16,7 +16,6 @@ const Expatriation = () => {
             Notre service de conseil en expatriation au maroc se distingue par une approche exhaustive et personnalisée, spécialement conçue pour faciliter votre transition lors de votre expatriation au Maroc avec Conseil EJ. Nous nous engageons à optimiser la gestion de votre patrimoine financier tout en vous offrant des solutions sur mesure, garantissant ainsi votre confiance et votre tranquillité d'esprit pendant cette période cruciale.
               </p>
           </div>
-
           <div>
            <img src={villanight} title="EXPATRIÉ" className="w-100" alt="Expatriation" />
           </div>

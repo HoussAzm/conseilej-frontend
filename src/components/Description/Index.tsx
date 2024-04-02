@@ -43,8 +43,7 @@ const Index = () => {
         {services.map((service) => (
           <div
             key={service.id}
-            className="px-4 py-8 text-center md:w-[300px] mx-auto rounded-md shadow cursor-pointer hover:-translate-y-5 text-white hover:bg-[#E8F5E9] transition-all duration-500 flex items-center justify-center h-full hover:text-black"
-          >
+            className="px-4 py-8 text-center md:w-[300px] mx-auto rounded-md shadow cursor-pointer hover:-translate-y-5 text-white hover:bg-[#E8F5E9] transition-all duration-500 flex items-center justify-center h-full hover:text-black">
             <div className="h-full" title="DÉVELOPPEMENT STRATÉGIQUE">
               <div className="bg-[#E8F5E9] w-14 h-14 flex justify-center items-center mx-auto mb-4 rounded-tl-3xl rounded-br-3xl">
                 <img src={service.image} alt="finance" title="finance" className="" />
@@ -68,8 +67,6 @@ const Index = () => {
             RÉSERVEZ ET DÉCOUVREZ FORFAITS AU PRIX LE PLUS BAS
           </p>
         </div>
-
-        {/* stats */}
         <div className="md:w-1/2 mx-auto flex sm:flex-row flex-col sm:items-center justify-around gap-12 ">
           <div className="space-y-8">
             <div className="flex items-center gap-4">

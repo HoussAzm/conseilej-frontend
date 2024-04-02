@@ -61,7 +61,6 @@ const Inder = () => {
                   <img src={assurance} alt="Assurance" title="" className="w-10" />
                   <img src={patrimonial} alt="Patrimonial" title="" className="w-10" />
                   <img src={papier} alt="papier administratif" title="" className="w-10" />
-                 
                 </div>
               </div>
             </div>

@@ -9,7 +9,7 @@ import papieradmini from "../../assets/papieradmini.png"
 const ServicesType = () => {
   return (
     <>
-     <br /><br /> 
+     <br/><br /> 
       <h1 className="titre14">NOS CONSEILLES</h1>
       <div className="mb-12 mt-8 flex flex-wrap justify-center lg:justify-between items-start gap-8">
         <div className="flex flex-col items-center text-center transition duration-500 transform hover:scale-110">
@@ -41,7 +41,6 @@ const ServicesType = () => {
           <p className="mt-2 text-white font-bold">Papier Adminisratifs</p>
         </div>
       </div>
-      
       <p className="text-center mt-12  text-white font-semibold">
       Nous travaillons avec plus de 500+ clients qui sont satisfaits de nos conseils
       </p>
