@@ -41,8 +41,6 @@ const Inder = () => {
           </div>
         </div>
       </div>
-
-      {/* company stats */}
       <div className="p-4 lg:p-14 max-w-screen-2xl mx-auto  bg-neutralSilver rounded">
         <div className="flex flex-col-reverse md:flex-row justify-start items-center gap-8">
           <div className="md:w-2/3 mx-auto">

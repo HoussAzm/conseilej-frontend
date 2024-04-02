@@ -33,8 +33,6 @@ const Home = () => {
           ))}
         </Carousel>
       </div>
-
-      {/* Bouton WhatsApp fixe */}
       <div
         style={{
           position: "fixed",

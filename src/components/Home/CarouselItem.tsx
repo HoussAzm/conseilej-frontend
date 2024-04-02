@@ -20,7 +20,7 @@ const CarouselItem: React.FC<CarouselItemProps> = ({ title, subTitle, image }) =
     padding: "20px",
     borderRadius: "5px", 
   };
-
+  
   return (
     <div className="carousel-item" style={itemStyle}>
       <h2 className="text-3xl font-bold text-gray-800" >{title}</h2>

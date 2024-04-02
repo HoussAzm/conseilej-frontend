@@ -87,7 +87,7 @@ function Contact() {
             />
             <input
               type="date"
-              name="date"  // This should match the field name used in sendForm
+              name="date" 
               placeholder="Précisez votre date"
               className="w-full bg-white border border-gray-300 rounded text-black py-2 px-3 outline-none"
               value={selectedDate}
