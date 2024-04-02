@@ -5,11 +5,10 @@ interface CarouselItemProps {
   subTitle: string;
   image: string;
 }
-
 const CarouselItem: React.FC<CarouselItemProps> = ({ title, subTitle, image }) => {
   const itemStyle: React.CSSProperties = {
     backgroundImage: `url(${image})`,
-    backgroundSize: "cover", // Vous pouvez modifier cette propriété pour ajuster la taille de l'image de fond
+    backgroundSize: "cover", 
     backgroundPosition: "center",
     textAlign: "center",
     color: "#fff",
@@ -17,7 +16,7 @@ const CarouselItem: React.FC<CarouselItemProps> = ({ title, subTitle, image }) =
     flexDirection: "column",
     justifyContent: "center",
     alignItems: "center",
-    minHeight: "650px", // Ajustez la hauteur minimale pour chaque élément du carrousel
+    minHeight: "650px",
     padding: "20px",
     borderRadius: "5px", 
   };
