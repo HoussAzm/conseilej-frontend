@@ -55,42 +55,29 @@ html, body{
 #navitem:hover{
     color: #edc768;
 }
-
 .imgs {
     width: 100%;
     height: auto;
     border-radius: 3%;
     margin-top: 1rem;
-    background-color: #000; /* Couleur de fond pour la vidéo */
+    background-color: #000;
   }
-  
   @media only screen and (min-width: 768px) {
     .imgs {
       width: 400px;
       margin-top: 0;
     }
   }
-  
-/* Ajoutez ce style à votre feuille de style CSS */
+
 .custom-date-input {
-    /* Ajoutez ici vos styles personnalisés pour l'input date */
-    /* Par exemple, pour changer la couleur du texte et du fond : */
     color: #333;
     background-color: #fff;
-    /* Ajoutez d'autres styles selon vos besoins */
   }
-  
-
-/* Ajoutez ce style à votre feuille de style CSS */
 .custom-textarea {
-    /* Ajoutez ici vos styles personnalisés pour la zone de texte */
-    /* Par exemple, pour changer la couleur du texte et du fond, et ajuster la bordure : */
     color: #333;
     background-color: #fff;
     border: 1px solid #ddd;
-    /* Ajoutez d'autres styles selon vos besoins */
   }
-  
 .checkliste{
     display: flex;
     justify-content: space-around;

@@ -30,7 +30,6 @@ const Projects = () => {
             Ces villas d'exception représentent des opportunités uniques pour investir dans un patrimoine d'excellence. Le Conseil Patrimonial CEJ est là pour concrétiser vos projets immobiliers avec expertise et dévouement."
           </p>
         </div>
-
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
           {images.map((image, index) => (
             <div key={index} className="p-2">

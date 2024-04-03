@@ -16,15 +16,12 @@ function Contact() {
     document.head.appendChild(script);
 
     return () => {
-      // Nettoyer le script si le composant est démonté
       document.head.removeChild(script);
     };
   }, []);
 
   const sendEmail = (e: FormEvent) => {
     e.preventDefault();
-
-    // Vous pouvez maintenant utiliser la valeur de selectedDate lors de l'envoi de l'e-mail
     emailjs
       .sendForm(
         "service_kvitzpf",
@@ -35,7 +32,6 @@ function Contact() {
         (result) => {
           if (result.text === "OK") {
             form.current?.reset();
-            // Réinitialise également la date sélectionnée après l'envoi réussi si nécessaire
             setSelectedDate("");
             alert("Le formulaire a été envoyé avec succès !");
           }
