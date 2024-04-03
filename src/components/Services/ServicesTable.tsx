@@ -89,16 +89,9 @@ const ServicesTable = () => {
       <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
         <thead className="text-xs uppercase bg-gray-50 dark:text-gray-400" id="tableau">
           <tr>
-            <th scope="col" className="px-6 py-3">
-              Type de prestation
-            </th>
-            <th scope="col" className="px-6 py-3 w-40">
-              Tarifs ( Є / % )
-            </th>
-            <th scope="col" className="px-6 py-3">
-              Détails
-            </th>
-          </tr>
+            <th scope="col" className="px-6 py-3">Type de prestation</th>
+            <th scope="col" className="px-6 py-3 w-40">Tarifs ( Є / % )</th>
+            <th scope="col" className="px-6 py-3">Détails</th></tr>
         </thead>
         <tbody>
           {tableData.map((item, index) => (
