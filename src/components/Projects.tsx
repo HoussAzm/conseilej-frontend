@@ -20,9 +20,7 @@ const Projects = () => {
     <Container>
       <div className=" mx-auto my-12 md:my-24" id="CONSEIL-PROJET">
         <div className="text-center md:w-1/2 mx-auto">
-          <h2 className="text-2xl md:text-4xl  font-bold mb-4" id="change" title="">
-            DÉCOUVREZ NOS PROJETS
-          </h2>
+          <h2 className="text-2xl md:text-4xl  font-bold mb-4" id="change" title="">DÉCOUVREZ NOS PROJETS</h2>
           <p className="text-md font-semibold mb-8 text-justify">
             Optimisez votre patrimoine, bâtissez votre avenir avec le Conseil Patrimonial CEJ, votre partenaire d'exception en gestion patrimoniale et immobilière. Notre expertise vous offre des conseils avisés et des opportunités immobilières uniques, créant ainsi votre succès financier et votre bien-être immobilier. Découvrez nos villas exclusives :
             Maria Towers à Marrakech, Maroc : De somptueuses villas offrant une expérience de vie luxueuse au cœur de Marrakech. Maria Towers combine habilement modernité, confort et élégance orientale pour un cadre de vie incomparable.
