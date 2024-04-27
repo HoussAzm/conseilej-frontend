@@ -8,14 +8,14 @@ interface SectionTitleProps {
 
 const SectionTitle: FC<SectionTitleProps> = ({ title, className }) => {
   return (
-    <h2 id="change"
+    <h1 id="change"
       className={clsx(
         className,
         "text-center text-2xl md:text-4xl font-bold "
       )}
     >
       {title}
-    </h2>
+    </h1>
   );
 };
 

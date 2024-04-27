@@ -46,7 +46,7 @@ const Index = () => {
             >
               <div className="h-full">
                 <div className="bg-[#E8F5E9] w-14 h-14 flex justify-center items-center mx-auto mb-4 rounded-tl-3xl rounded-br-3xl">
-                  <img src={service.image} alt="CONSEIL" title="CONSEIL" className=""/>
+                  <img src={service.image} alt="CONSEIL" title="" className=""/>
                 </div>
                 <h4 className="text-lg md:text-2xl font-bold  mb-2 px-2" id="change">
                   {service.title}

@@ -23,7 +23,7 @@ const Navbar = () => {
     <nav className="bg-white border-gray-200 dark:bg-black dark:border-gray-500">
       <div className="max-w-screen-2xl flex flex-col items-center justify-center mx-auto p-4">
         <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse mb-4">
-          <img src={cejlogo1} className="h-20" alt="LOGO" />
+          <img src={cejlogo1} className="h-20" alt="LOGO CEJ" />
         </a>
         <div className="md:hidden">
           <button

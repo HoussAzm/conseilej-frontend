@@ -35,10 +35,10 @@ const Index = () => {
   return (
     <Container>
       <ChewNous />
-      <h2 className="text-2xl md:text-4xl font-bold w-full text-center max-w-[50ch] mx-auto  mt-12" id="change">
+      <h1 className="text-2xl md:text-4xl font-bold w-full text-center max-w-[50ch] mx-auto  mt-12" id="change">
         CHAQUE INVESTISSEMENT QUE VOUS RÉALISEREZ DEVRA ÊTRE ANALYSÉ AU REGARD
         DE PLUSIEURS CRITÈRES :
-      </h2>
+      </h1>
       <div className=" mt-6 md:mt-12 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:w-11/12 mx-auto gap-6 md:gap-12">
         {services.map((service) => (
           <div
@@ -90,7 +90,7 @@ const Index = () => {
           </div>
           <div className="space-y-8">
             <div className="flex items-center gap-4">
-              <img className="w-12" src={villa} alt="NIVEAU DE RISQUE" title="NIVEAU DE RISQUE"/>
+              <img className="w-12" src={villa} alt="NIVEAU DE RISQUE" title=""/>
               <div>
                 <h4 className="text-2xl text-neutralDGrey font-semibold">
                   150+
@@ -99,7 +99,7 @@ const Index = () => {
               </div>
             </div>
             <div className="flex items-center gap-4">
-              <img className="w-12" src={building} alt="STRATÉGIQUE"  title="STRATÉGIQUE"/>
+              <img className="w-12" src={building} alt="STRATÉGIQUE"  title=""/>
               <div>
                 <h4 className="text-2xl text-neutralDGrey font-semibold">
                   1000+

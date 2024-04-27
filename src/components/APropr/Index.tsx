@@ -13,9 +13,9 @@ const Inder = () => {
       <div className="md:px-4 lg:px-14 max-w-screen-2xl mx-auto my-14 md:my-24">
         <div className="md:w-11/12 mx-auto flex flex-col md:flex-row justify-between items-center gap-12">
           <div className="flex-1">
-            <h2 className="md:text-left text-center text-2xl md:text-4xl font-bold  mb-4 md:hidden block" id="change">
+            <h1 className="md:text-left text-center text-2xl md:text-4xl font-bold  mb-4 md:hidden block" id="change">
               JAMEL ESSOUALEH
-            </h2>
+            </h1>
             <img src={mrjamal} alt="MR JAMEL" title="CONSEIL" className="w-full" id="essoualeh" />
           </div>
           <div className="md:w-3/5 mx-auto">

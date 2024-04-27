@@ -10,9 +10,9 @@ const ChewNous = () => {
           </video>
         </div>
         <div className="md:w-3/5 mx-auto">
-          <h2 className="text-2xl md:text-left text-center md:text-4xl font-bold  pb-4" id="change">
+          <h1 className="text-2xl md:text-left text-center md:text-4xl font-bold  pb-4" id="change">
             CONSEIL EJ
-          </h2>
+          </h1>
           <p className="text-md font-semibold mb-8 text-justify">
             Bienvenue chez Conseil EJ, votre partenaire de confiance pour une gestion patrimoniale exceptionnelle.
             Spécialisés dans le conseil patrimonial, l'immobilier de prestige, la gestion patrimoniale, le conseil
